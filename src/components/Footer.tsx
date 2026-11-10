@@ -40,9 +40,7 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
             <h3 className="font-heading font-bold text-2xl sm:text-3xl text-white mt-1">
               Be Part of Something Good.
             </h3>
-            <p className="text-sm text-[#FFF8ED]/80 mt-2 font-body">
-              Receive uplifting monthly updates on community dining feasts, volunteer stories, and our fight against food poverty.
-            </p>
+            <p className="text-sm text-[#FFF8ED]/80 mt-2 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="w-full lg:w-auto min-w-[320px] sm:min-w-[400px]">
@@ -86,16 +84,10 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
                 className="h-14 sm:h-16 w-auto object-contain"
               />
             </div>
-            <p className="text-sm text-[#FFF8ED]/80 leading-relaxed font-body pr-4">
-              <strong>Doris Kindness Kitchen CIC</strong> is a UK Community Interest Company dedicated to supporting homeless people, vulnerable individuals, and families experiencing food poverty and financial hardship.
-            </p>
+            <p className="text-sm text-[#FFF8ED]/80 leading-relaxed font-body pr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div className="p-3.5 rounded-xl bg-[#176B45]/60 border border-[#D9A441]/25">
-              <p className="text-xs italic text-[#E7C071] font-medium">
-                “Feeding Hope, Sharing Love and Changing Lives.”
-              </p>
-              <p className="text-[11px] text-[#FFF8ED]/60 mt-1">
-                Registered in England & Wales as a Community Interest Company.
-              </p>
+              <p className="text-xs italic text-[#E7C071] font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-[11px] text-[#FFF8ED]/60 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div>
               <button
@@ -273,9 +265,9 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
               </div>
 
               <div className="pt-3 border-t border-white/10 text-xs text-[#FFF8ED]/70">
-                <p className="font-semibold text-white mb-1">Kitchen Sessions:</p>
-                <p>Tue & Thu: 12:00 – 14:30</p>
-                <p>Sat: 11:30 – 15:00</p>
+                <p className="font-semibold text-white mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
           </div>
@@ -286,9 +278,7 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
 
         {/* Bottom copyright & legal */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#FFF8ED]/70 font-body">
-          <p>
-            © {new Date().getFullYear()} Doris Kindness Kitchen CIC. All rights reserved.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
           <div className="flex items-center gap-6">
             <button

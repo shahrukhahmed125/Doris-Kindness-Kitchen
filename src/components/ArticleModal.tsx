@@ -65,8 +65,8 @@ export default function ArticleModal({ article, onClose, onOpenDonate }: Article
               <User className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-[#242923]">{article.author}</p>
-              <p className="text-[11px] text-[#596157]">Doris Kindness Kitchen Editorial</p>
+              <p className="text-xs font-semibold text-[#242923]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-[11px] text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
 
@@ -80,14 +80,12 @@ export default function ArticleModal({ article, onClose, onOpenDonate }: Article
           </div>
 
           {/* Excerpt */}
-          <p className="text-base sm:text-lg font-serif italic text-[#176B45] leading-relaxed bg-[#FAF2E4] p-5 rounded-2xl border-l-4 border-[#D9A441]">
-            “{article.excerpt}”
-          </p>
+          <p className="text-base sm:text-lg font-serif italic text-[#176B45] leading-relaxed bg-[#FAF2E4] p-5 rounded-2xl border-l-4 border-[#D9A441]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
           {/* Paragraphs */}
           <div className="space-y-4 text-sm sm:text-base text-[#242923] leading-relaxed font-body">
             {article.content.map((paragraph, idx) => (
-              <p key={idx}>{paragraph}</p>
+              <p key={idx}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             ))}
           </div>
 
@@ -97,9 +95,7 @@ export default function ArticleModal({ article, onClose, onOpenDonate }: Article
               <h4 className="font-heading font-bold text-lg text-white">
                 Help Us Keep Telling These Stories
               </h4>
-              <p className="text-xs text-[#FFF8ED]/80 mt-1">
-                Your donation directly funds the meals and care described here.
-              </p>
+              <p className="text-xs text-[#FFF8ED]/80 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <button
               onClick={() => {

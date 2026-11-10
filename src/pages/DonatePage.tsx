@@ -73,9 +73,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Support Doris Kindness Kitchen
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Every pound you give directly turns into freshly cooked hot meals, wholesome grocery hampers, and human warmth.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -88,9 +86,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
             Select Your Giving Level
           </h2>
-          <p className="text-sm text-[#596157] font-body">
-            As a UK Community Interest Company, 100% of public donations directly fund food and community care supplies.
-          </p>
+          <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -116,12 +112,8 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
                 <div className="font-heading font-extrabold text-4xl sm:text-5xl text-[#176B45]">
                   £{tier.amount}
                 </div>
-                <p className="text-sm font-bold text-[#104C31] leading-snug">
-                  {tier.impact}
-                </p>
-                <p className="text-xs text-[#596157] leading-relaxed font-body">
-                  {tier.details}
-                </p>
+                <p className="text-sm font-bold text-[#104C31] leading-snug">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className="text-xs text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               <div className="pt-6 mt-6 border-t border-gray-100">
@@ -146,9 +138,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
           <h3 className="font-heading font-extrabold text-xl text-[#104C31]">
             Prefer to choose your own amount or set up a monthly gift?
           </h3>
-          <p className="text-xs text-[#596157] font-body">
-            No gift is too small. Even £3 buys two warm cups of tea and fresh sourdough rolls for someone sleeping rough.
-          </p>
+          <p className="text-xs text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <button
             onClick={() => onOpenDonate()}
             className="btn-sexy-gold px-8 py-3.5 text-xs sm:text-sm flex items-center gap-2 mx-auto"
@@ -177,12 +167,10 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
                 <Building className="w-6 h-6" />
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Direct Bank Transfer (BACS)</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Set up a standing order with zero transaction fees. Use reference <strong>KINDNESS</strong> so our team can acknowledge your receipt.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className="text-xs font-mono bg-[#FFF8ED] p-3 rounded-xl border border-[#D9A441]/20 space-y-1">
-                <p><strong>Sort Code:</strong> 20-04-18</p>
-                <p><strong>Account:</strong> 83920145</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
 
@@ -191,10 +179,8 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
                 <Apple className="w-6 h-6" />
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">In-Kind Food Donations</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                We gratefully welcome non-perishable staples (rice, pasta, tinned tomatoes, pulses, oats) and fresh surplus from allotment growers.
-              </p>
-              <p className="text-xs text-[#176B45] font-semibold">Drop off: Tuesday & Thursday 10:00 – 14:00</p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-xs text-[#176B45] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-8 rounded-3xl border border-[#D9A441]/35 shadow-md space-y-3 hover:shadow-xl transition-all">
@@ -202,9 +188,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
                 <Coins className="w-6 h-6" />
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Corporate Matching & Payroll</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Ask your employer about payroll giving or employer donation matching schemes to double the meals you provide.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <button
                 onClick={() => onNavigate('fundraising')}
                 className="text-xs font-bold text-[#176B45] hover:underline cursor-pointer"
@@ -232,25 +216,19 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
             <h4 className="font-heading font-bold text-[#104C31] text-base mb-1">
               How does UK Gift Aid work?
             </h4>
-            <p className="leading-relaxed">
-              If you are a UK taxpayer, HM Revenue & Customs will add 25p for every £1 you donate, at absolutely no additional cost to you. A £20 donation becomes £25 for our community food supplies.
-            </p>
+            <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div className="pb-4 border-b border-gray-100">
             <h4 className="font-heading font-bold text-[#104C31] text-base mb-1">
               Can I donate anonymously?
             </h4>
-            <p className="leading-relaxed">
-              Yes, you can choose to make an anonymous contribution. We will still provide you with a private digital receipt for your financial records.
-            </p>
+            <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div>
             <h4 className="font-heading font-bold text-[#104C31] text-base mb-1">
               Can I designate my gift to a specific project?
             </h4>
-            <p className="leading-relaxed">
-              Yes! You can specify your donation toward our Winter Warmth fund, School Holiday food boxes, or general kitchen operations by leaving a note during checkout or emailing our finance team.
-            </p>
+            <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
       </section>

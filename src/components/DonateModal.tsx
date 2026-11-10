@@ -90,9 +90,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
           <h3 className="font-heading font-bold text-2xl text-white">
             Support Doris Kindness Kitchen
           </h3>
-          <p className="text-xs text-[#FFF8ED]/80 mt-1">
-            Feeding Hope, Sharing Love and Changing Lives.
-          </p>
+          <p className="text-xs text-[#FFF8ED]/80 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
         {/* Modal Body */}
@@ -174,9 +172,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                   Your Impact with £{currentAmount || 0}
                   {frequency === 'monthly' ? ' / month' : ''}:
                 </strong>
-                <p className="leading-relaxed">
-                  {getImpactDescription(currentAmount)}
-                </p>
+                <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               {/* Gift Aid UK */}
@@ -297,11 +293,11 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                   </div>
                 ) : (
                   <div className="bg-white p-3 rounded-xl border border-[#D9A441]/30 text-xs space-y-1 text-[#242923]">
-                    <p className="font-semibold text-[#176B45]">Doris Kindness Kitchen CIC Bank Details:</p>
-                    <p><span className="text-gray-500">Account Name:</span> Doris Kindness Kitchen CIC</p>
-                    <p><span className="text-gray-500">Sort Code:</span> 20-04-18</p>
-                    <p><span className="text-gray-500">Account Number:</span> 83920145</p>
-                    <p><span className="text-gray-500">Reference:</span> YOUR NAME</p>
+                    <p className="font-semibold text-[#176B45]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
                 )}
               </div>
@@ -346,9 +342,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                 <h3 className="font-heading font-bold text-2xl text-[#104C31] mt-1">
                   Thank You, {donorName || 'Kind Supporter'}!
                 </h3>
-                <p className="text-sm text-[#596157] mt-1 font-body">
-                  Your generous gift of <strong>£{currentAmount}</strong> {frequency === 'monthly' ? 'monthly' : ''} directly puts nourishing meals on someone’s table.
-                </p>
+                <p className="text-sm text-[#596157] mt-1 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               {/* Official Receipt Card */}

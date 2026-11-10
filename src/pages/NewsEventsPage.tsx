@@ -56,9 +56,7 @@ export default function NewsEventsPage({ onNavigate, onSelectArticle }: NewsEven
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             News, Events & Stories
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Stay in touch with what is happening in our dining hall, upcoming community feasts, and volunteer spotlights.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -131,9 +129,7 @@ export default function NewsEventsPage({ onNavigate, onSelectArticle }: NewsEven
                     {featuredArticle.title}
                   </h2>
 
-                  <p className="text-sm text-[#596157] leading-relaxed font-body">
-                    {featuredArticle.excerpt}
-                  </p>
+                  <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
                 <div className="pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[#176B45] group-hover:text-[#B8852C]">
@@ -179,9 +175,7 @@ export default function NewsEventsPage({ onNavigate, onSelectArticle }: NewsEven
                       <h4 className="font-heading font-bold text-lg text-[#104C31] group-hover:text-[#B8852C] transition-colors leading-snug">
                         {article.title}
                       </h4>
-                      <p className="text-xs text-[#596157] mt-2 line-clamp-3 leading-relaxed">
-                        {article.excerpt}
-                      </p>
+                      <p className="text-xs text-[#596157] mt-2 line-clamp-3 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
 
                     <div className="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-[#176B45]">
@@ -226,9 +220,7 @@ export default function NewsEventsPage({ onNavigate, onSelectArticle }: NewsEven
                       <h4 className="font-heading font-bold text-lg text-[#104C31]">
                         {event.title}
                       </h4>
-                      <p className="text-xs text-[#596157] font-body max-w-xl leading-relaxed">
-                        {event.description}
-                      </p>
+                      <p className="text-xs text-[#596157] font-body max-w-xl leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                       <div className="flex flex-wrap items-center gap-4 text-xs text-[#596157] pt-1">
                         <span className="flex items-center gap-1">
                           <Clock className="w-3.5 h-3.5 text-[#D9A441]" />

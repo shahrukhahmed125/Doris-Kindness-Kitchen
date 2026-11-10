@@ -45,9 +45,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Become a Volunteer
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Share your warmth, make lifelong friends, and help us prepare nutritious food for people who need it most.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -61,9 +59,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31] leading-tight text-balance">
               Give a Few Hours. Transform Countless Lives.
             </h2>
-            <p className="text-base text-[#242923]/90 leading-relaxed font-body">
-              Volunteering at Doris Kindness Kitchen is one of the most rewarding ways to connect with your community. Our volunteers come from every walk of life—students, working professionals, retirees, and former guests who now give back.
-            </p>
+            <p className="text-base text-[#242923]/90 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div className="space-y-2.5 pt-1 text-xs sm:text-sm text-[#596157]">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
@@ -112,9 +108,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Where We Need Your Support
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              Choose the role that best matches your interests, comfort, and weekly schedule.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -138,9 +132,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
                     {role.title}
                   </h3>
 
-                  <p className="text-sm text-[#596157] leading-relaxed font-body">
-                    {role.description}
-                  </p>
+                  <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                   <div className="pt-2">
                     <span className="text-xs font-bold text-[#242923] block mb-1.5">
@@ -194,28 +186,28 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
               01
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Online Form</h4>
-            <p className="text-xs text-[#596157]">Fill in our simple 2-minute application with your interests.</p>
+            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#D9A441]/20 text-[#B8852C] font-extrabold flex items-center justify-center mx-auto text-sm">
               02
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Friendly Chat</h4>
-            <p className="text-xs text-[#596157]">An informal telephone conversation with our volunteer lead.</p>
+            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#176B45]/15 text-[#176B45] font-extrabold flex items-center justify-center mx-auto text-sm">
               03
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Induction</h4>
-            <p className="text-xs text-[#596157]">Tour the kitchen, learn hygiene rules, and meet fellow volunteers.</p>
+            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#D9A441]/20 text-[#B8852C] font-extrabold flex items-center justify-center mx-auto text-sm">
               04
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">First Shift</h4>
-            <p className="text-xs text-[#596157]">Paired with an experienced buddy for an uplifting first session.</p>
+            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
       </section>
@@ -227,9 +219,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
           <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
             Ready to Join the Family?
           </h2>
-          <p className="text-sm text-[#FFF8ED]/80 font-body">
-            You don't need to be a Michelin chef—all you need is kindness.
-          </p>
+          <p className="text-sm text-[#FFF8ED]/80 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div className="pt-2">
             <button
               onClick={() => onOpenVolunteer()}

@@ -47,9 +47,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-tight">
             About Doris Kindness Kitchen CIC
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Feeding Hope, Sharing Love and Changing Lives through the transformative power of a dignified, warm community meal.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -63,15 +61,9 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31] leading-tight text-balance">
               Born from a Simple Promise: No Neighbor Should Starve in Silence.
             </h2>
-            <p className="text-base text-[#242923]/90 leading-relaxed font-body">
-              Doris Kindness Kitchen CIC was founded in response to a sobering reality across UK communities: food poverty is not merely a shortage of calories, but an overwhelming crisis of isolation, anxiety, and lost dignity.
-            </p>
-            <p className="text-sm text-[#596157] leading-relaxed font-body">
-              Named in honour of community matriarch Doris—whose kitchen door was always unlocked and whose stove always held a bubbling pot for anyone in need—our organisation began with three volunteers cooking big pots of soup in a borrowed church hall.
-            </p>
-            <p className="text-sm text-[#596157] leading-relaxed font-body">
-              Today, Doris Kindness Kitchen is a registered UK Community Interest Company. We rescue tonnes of surplus fresh produce each week and serve hundreds of vulnerable adults, rough sleepers, single parents, and isolated elders across our regular dining sessions and doorstep parcel networks.
-            </p>
+            <p className="text-base text-[#242923]/90 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
             <div className="pt-2 flex items-center gap-4">
               <button
@@ -98,12 +90,8 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 text-white">
-                <p className="font-heading font-bold text-lg">
-                  Every Guest is Welcomed as Family
-                </p>
-                <p className="text-xs text-white/80">
-                  A dignified dining room where conversation flows freely.
-                </p>
+                <p className="font-heading font-bold text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className="text-xs text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
           </div>
@@ -120,9 +108,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Who We Support Across Our Communities
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              We operate an open-door policy. We do not require referrals or proof of benefits to share a hot plate of food.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -131,9 +117,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
                 01
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Rough Sleepers & Homeless</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Hot, nutrient-dense meals, clean socks, winter thermal packs, and compassionate outreach to those on the streets.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-md transition-shadow">
@@ -141,9 +125,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
                 02
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Families in Food Poverty</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Weekly pantry boxes filled with fresh produce, dairy, wholemeal breads, and healthy staples to keep children nourished.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-md transition-shadow">
@@ -151,9 +133,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
                 03
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Pensioners & Isolated Elders</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                A warm communal space to eat, escape high home heating bills, make friends, and receive doorstep deliveries when ill.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-md transition-shadow">
@@ -161,9 +141,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
                 04
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">People in Sudden Crisis</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Immediate emergency help for individuals facing benefit payment freezes, medical recovery, or unexpected job redundancy.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
@@ -186,9 +164,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               <Heart className="w-6 h-6 fill-current" />
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Unconditional Compassion</h3>
-            <p className="text-sm text-[#596157] leading-relaxed">
-              We treat every guest with infinite respect and warmth. Kindness is our primary currency, and we never make assumptions about someone's journey.
-            </p>
+            <p className="text-sm text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="bg-white p-8 rounded-3xl border border-[#D9A441]/35 shadow-md space-y-3 hover:shadow-xl transition-all">
@@ -196,9 +172,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               <ShieldCheck className="w-6 h-6" />
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Integrity & Transparency</h3>
-            <p className="text-sm text-[#596157] leading-relaxed">
-              As a Community Interest Company, our accounts and operations are completely open. 100% of public food donations go directly to providing sustenance.
-            </p>
+            <p className="text-sm text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="bg-white p-8 rounded-3xl border border-[#D9A441]/35 shadow-md space-y-3 hover:shadow-xl transition-all">
@@ -206,9 +180,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               <Users className="w-6 h-6" />
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Community-Led Solidarity</h3>
-            <p className="text-sm text-[#596157] leading-relaxed">
-              We are neighbors helping neighbors. We listen to the people we serve and build programmes based on genuine community feedback and lived experience.
-            </p>
+            <p className="text-sm text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
       </section>
@@ -222,9 +194,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-white">
             Together, We Keep the Kindness Burning.
           </h2>
-          <p className="text-base text-[#FFF8ED]/85 max-w-2xl mx-auto font-body">
-            Whether you need a hot meal today, want to donate surplus groceries, or have a few hours to volunteer, you have a place at Doris Kindness Kitchen.
-          </p>
+          <p className="text-base text-[#FFF8ED]/85 max-w-2xl mx-auto font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
             <button
               onClick={onOpenDonate}

@@ -33,9 +33,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
           <h1 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white">
             Privacy Policy & Data Protection
           </h1>
-          <p className="text-xs sm:text-sm text-[#FFF8ED]/80 font-body">
-            Last Updated: November 2026 · Doris Kindness Kitchen Community Interest Company (CIC)
-          </p>
+          <p className="text-xs sm:text-sm text-[#FFF8ED]/80 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -62,7 +60,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               </nav>
 
               <div className="pt-4 border-t border-gray-100 text-[11px] text-[#596157]">
-                <p>Registered with the UK Information Commissioner’s Office (ICO).</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
           </div>
@@ -73,19 +71,15 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 1. Introduction & CIC Status
               </h2>
-              <p>
-                Doris Kindness Kitchen CIC ("we", "our", or "the Organisation") is a registered Community Interest Company operating in England & Wales. We are committed to protecting and respecting the privacy, dignity, and personal data of our donors, volunteers, partners, and community members who access our meal programmes.
-              </p>
-              <p>
-                This Privacy Policy explains how we collect, handle, store, and protect your personal information in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div id="data-collected" className="space-y-3 scroll-mt-28 pt-4 border-t border-gray-100">
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 2. Information We Collect
               </h2>
-              <p>Depending on how you interact with us, we may collect:</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
                 <li><strong>Donors:</strong> Name, contact details, payment transaction reference, donation amount, Gift Aid declarations. Note: We do not store complete payment card credentials on our servers.</li>
                 <li><strong>Volunteers:</strong> Name, contact phone, email, emergency contact details, skill preferences, availability, and background/safeguarding verification records where applicable.</li>
@@ -98,7 +92,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 3. How We Use Your Data
               </h2>
-              <p>We use your personal data strictly for legitimate operational purposes:</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
                 <li>To prepare, deliver, and distribute nutritious food parcels and hot meals safely.</li>
                 <li>To process donations and reclaim UK Gift Aid through HMRC.</li>
@@ -112,43 +106,29 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 4. Lawful Basis for Processing
               </h2>
-              <p>
-                Under Article 6 of the UK GDPR, our lawful bases for processing personal data include:
-              </p>
-              <p>
-                <strong>Consent:</strong> For email newsletter subscriptions and photo gallery publications.
-                <br />
-                <strong>Legitimate Interests:</strong> For day-to-day volunteer coordination, food safety logging, and acknowledging charitable support.
-                <br />
-                <strong>Legal Obligation:</strong> For maintaining HMRC Gift Aid records and charitable financial audit compliance.
-                <br />
-                <strong>Vital Interests:</strong> In emergency situations where medical or food allergy safety is at immediate risk.
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div id="cookies" className="space-y-3 scroll-mt-28 pt-4 border-t border-gray-100">
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 5. Cookies & Digital Tracking
               </h2>
-              <p>
-                Our website uses only essential and functional cookies required to ensure secure donation checkout, navigation state, and accessibility preferences. We do not sell personal data to commercial advertisers or data brokers under any circumstances.
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div id="retention" className="space-y-3 scroll-mt-28 pt-4 border-t border-gray-100">
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 6. Data Retention & Safeguarding
               </h2>
-              <p>
-                We only retain your personal information for as long as necessary to fulfill the purposes for which it was gathered. Financial records for donations are retained for six financial years in accordance with UK tax laws. Volunteer application data is securely removed after termination of service.
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div id="your-rights" className="space-y-3 scroll-mt-28 pt-4 border-t border-gray-100">
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 7. Your Rights Under UK GDPR
               </h2>
-              <p>You have full statutory rights over your personal data:</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
                 <li><strong>The right to access:</strong> Request a copy of the information we hold about you.</li>
                 <li><strong>The right to rectification:</strong> Request correction of inaccurate information.</li>
@@ -161,13 +141,11 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 8. Contacting Our Data Officer
               </h2>
-              <p>
-                If you have any questions about this Privacy Policy or wish to exercise any of your statutory rights, please write to our Data Protection Officer:
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className="bg-[#FAF2E4] p-4 rounded-xl border border-[#D9A441]/30 text-xs space-y-1">
-                <p><strong>Doris Kindness Kitchen CIC – Data Protection Lead</strong></p>
-                <p>St. Jude Community Hall, High Street, Borough, UK</p>
-                <p>Email: <a href="mailto:privacy@doriskindnesskitchen.org.uk" className="text-[#176B45] hover:underline font-semibold">privacy@doriskindnesskitchen.org.uk</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
           </div>

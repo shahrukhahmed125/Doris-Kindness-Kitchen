@@ -50,9 +50,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Our Community Services
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Providing free nutritious meals, emergency food hampers, essential hygiene supplies, and doorstep outreach with warmth and dignity.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -92,9 +90,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
                 <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31] leading-tight">
                   {service.title}
                 </h2>
-                <p className="text-base text-[#242923]/90 leading-relaxed font-body">
-                  {service.fullDesc}
-                </p>
+                <p className="text-base text-[#242923]/90 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                 {/* Highlights List */}
                 <div className="space-y-2.5 pt-1">
@@ -112,7 +108,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
                       <Clock className="w-3.5 h-3.5 text-[#D9A441]" />
                       Session Times & Availability:
                     </span>
-                    <p className="text-[#596157] font-medium">{service.schedule}</p>
+                    <p className="text-[#596157] font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
                 )}
               </div>
@@ -131,9 +127,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               How to Access Support
             </h2>
-            <p className="text-sm text-[#596157] font-body max-w-xl mx-auto">
-              We never want anyone to feel embarrassed or intimidated when seeking help. Here is how easy it is to receive support from our kitchen.
-            </p>
+            <p className="text-sm text-[#596157] font-body max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -142,9 +136,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
                 1
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Walk In & Eat</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Simply arrive during our dining hours (Tues & Thurs 12:00–14:30; Sat 11:30–15:00). Take a seat, enjoy tea, and receive a hot nutritious plate.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 text-center hover:shadow-lg transition-all">
@@ -152,9 +144,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
                 2
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Request Food Parcels</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Speak to our volunteers on site or contact us by phone or email. We will prepare a 5-day fresh pantry box tailored to your family size.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 text-center hover:shadow-lg transition-all">
@@ -162,9 +152,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
                 3
               </div>
               <h3 className="font-heading font-bold text-lg text-[#104C31]">Doorstep Delivery</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                If you are housebound, elderly, or disabled, our outreach volunteer drivers can deliver chilled or hot meals directly to your doorstep.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
@@ -219,9 +207,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
           <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
             Need Support or Know Someone Who Does?
           </h2>
-          <p className="text-sm text-[#FFF8ED]/85 font-body">
-            Get in touch confidentially with our compassionate support team today.
-          </p>
+          <p className="text-sm text-[#FFF8ED]/85 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
             <button
               onClick={() => onNavigate('contact')}

@@ -91,9 +91,7 @@ export default function HomePage({
                 Together, We Can <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D9A441] via-[#E7C071] to-[#D9A441]">Make a Difference.</span>
               </h1>
 
-              <p className="text-base sm:text-lg md:text-xl text-[#FFF8ED]/90 max-w-2xl leading-relaxed font-body font-normal">
-                Every meal shared is a message of hope. We bring communities together to support individuals and families facing food poverty, offering nourishment, dignity and kindness when it matters most.
-              </p>
+              <p className="text-base sm:text-lg md:text-xl text-[#FFF8ED]/90 max-w-2xl leading-relaxed font-body font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
               {/* Sexy Action Buttons */}
               <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -162,9 +160,7 @@ export default function HomePage({
                   <div className="w-full bg-[#FAF2E4] h-3 rounded-full overflow-hidden border border-[#D9A441]/40">
                     <div className="bg-gradient-to-r from-[#D9A441] to-[#E7C071] h-full w-[82%] rounded-full shadow" />
                   </div>
-                  <p className="text-xs text-[#596157] leading-relaxed">
-                    With your compassionate support, we are preparing fresh vegetable stews, bakery bread, and pantry boxes for neighbors across the borough.
-                  </p>
+                  <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
                 <button
@@ -197,10 +193,8 @@ export default function HomePage({
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <p className="font-heading font-bold text-base">
-                    Fresh ingredients, prepared with dignity & love daily
-                  </p>
-                  <p className="text-xs text-white/80">Our Community Prep Kitchen</p>
+                  <p className="font-heading font-bold text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p className="text-xs text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
 
@@ -228,13 +222,9 @@ export default function HomePage({
                 </h2>
               </div>
 
-              <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">
-                At Doris Kindness Kitchen CIC, we believe that access to nutritious, wholesome food is not a privilege—it is a fundamental human right. In times of rising living costs, redundancy, illness, or homelessness, we stand ready as a community safety net.
-              </p>
+              <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-              <p className="text-sm sm:text-base text-[#596157] leading-relaxed font-body">
-                Every week, our warm-hearted volunteers rescue surplus fresh produce from ethical growers and supermarkets, transforming it into restaurant-quality hot dishes and balanced food parcels. When someone visits us, they aren't handed a handout; they are welcomed as an honoured guest at our family table.
-              </p>
+              <p className="text-sm sm:text-base text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
               {/* Key Pillars */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
@@ -243,7 +233,7 @@ export default function HomePage({
                     01
                   </div>
                   <h4 className="font-heading font-bold text-sm text-[#104C31]">Dignity First</h4>
-                  <p className="text-xs text-[#596157] mt-1">Zero judgement, zero shame. We serve with warmth and genuine care.</p>
+                  <p className="text-xs text-[#596157] mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-[#D9A441]/30 shadow-sm hover:shadow-md transition-shadow">
@@ -251,7 +241,7 @@ export default function HomePage({
                     02
                   </div>
                   <h4 className="font-heading font-bold text-sm text-[#104C31]">Holistic Support</h4>
-                  <p className="text-xs text-[#596157] mt-1">Meals, emergency hampers, essential toiletries, and warm fellowship.</p>
+                  <p className="text-xs text-[#596157] mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
 
@@ -289,9 +279,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#104C31] leading-tight text-balance">
               Making a Difference, One Act of Kindness at a Time.
             </h2>
-            <p className="text-sm sm:text-base text-[#596157] font-body">
-              Our holistic community programmes provide practical sustenance, relief from hardship, and a reliable network of compassion.
-            </p>
+            <p className="text-sm sm:text-base text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {/* Four Distinct Service Cards with Sexy Hover */}
@@ -323,9 +311,7 @@ export default function HomePage({
                     <h3 className="font-heading font-bold text-lg text-[#104C31] group-hover:text-[#B8852C] transition-colors">
                       {srv.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-[#596157] leading-relaxed mt-2 font-body">
-                      {srv.shortDesc}
-                    </p>
+                    <p className="text-xs sm:text-sm text-[#596157] leading-relaxed mt-2 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
 
                   <div className="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[#176B45] group-hover:text-[#B8852C] transition-colors">
@@ -370,9 +356,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white leading-tight text-balance">
               Our Mission Is Simple. No One Should Have to Face Hunger Alone.
             </h2>
-            <p className="text-sm sm:text-base text-[#FFF8ED]/85 font-body">
-              Every day we work to remove food insecurity, foster community resilience, and ensure every neighbor feels heard and valued.
-            </p>
+            <p className="text-sm sm:text-base text-[#FFF8ED]/85 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 items-stretch">
@@ -388,9 +372,7 @@ export default function HomePage({
                 <h3 className="font-heading font-bold text-2xl sm:text-3xl text-white">
                   Our Mission
                 </h3>
-                <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">
-                  To provide compassionate food assistance and practical support to people facing hardship, ensuring everyone feels valued, respected and cared for.
-                </p>
+                <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               <div className="pt-6 border-t border-white/10 mt-6 text-xs text-[#FFF8ED]/80 space-y-2">
@@ -417,9 +399,7 @@ export default function HomePage({
                 <h3 className="font-heading font-bold text-2xl sm:text-3xl text-white">
                   Our Vision
                 </h3>
-                <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">
-                  A stronger, kinder community where everyone has access to nutritious food, dignity, opportunity and the support they need to thrive.
-                </p>
+                <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               <div className="pt-6 border-t border-white/10 mt-6 text-xs text-[#FFF8ED]/80 space-y-2">
@@ -459,9 +439,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Every Act of Kindness Creates a Lasting Impact.
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              Here is how community compassion translates into real nourishment and human connection every single week.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {/* 4 Counter Blocks */}
@@ -477,9 +455,7 @@ export default function HomePage({
                 <h3 className="font-heading font-bold text-base text-[#242923] mt-2">
                   {stat.label}
                 </h3>
-                <p className="text-xs text-[#596157] mt-2 leading-relaxed font-body">
-                  {stat.desc}
-                </p>
+                <p className="text-xs text-[#596157] mt-2 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             ))}
           </div>
@@ -499,9 +475,7 @@ export default function HomePage({
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#104C31] leading-tight text-balance">
                 Bringing Hope to Our Communities.
               </h2>
-              <p className="text-sm sm:text-base text-[#596157] font-body">
-                Tailored relief programmes addressing child holiday hunger, cold-weather fuel poverty, and elderly isolation.
-              </p>
+              <p className="text-sm sm:text-base text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <button
               onClick={() => onNavigate('projects')}
@@ -533,9 +507,7 @@ export default function HomePage({
                 <h3 className="font-heading font-bold text-2xl text-[#104C31] group-hover:text-[#B8852C] transition-colors">
                   {PROJECTS[0].title}
                 </h3>
-                <p className="text-sm text-[#596157] leading-relaxed font-body">
-                  {PROJECTS[0].shortDesc}
-                </p>
+                <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div className="pt-4 flex items-center justify-between text-xs font-bold text-[#176B45] group-hover:text-[#B8852C]">
                   <span>Discover More About This Project</span>
                   <ArrowRight className="w-4 h-4 transform group-hover:translate-x-2 transition-transform" />
@@ -566,9 +538,7 @@ export default function HomePage({
                       <h3 className="font-heading font-bold text-base text-[#104C31] group-hover:text-[#B8852C] transition-colors leading-snug">
                         {prj.title}
                       </h3>
-                      <p className="text-xs text-[#596157] mt-1.5 line-clamp-2 font-body">
-                        {prj.shortDesc}
-                      </p>
+                      <p className="text-xs text-[#596157] mt-1.5 line-clamp-2 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div className="pt-3 flex items-center text-xs font-bold text-[#176B45] group-hover:text-[#B8852C]">
                       <span>Discover More</span>
@@ -603,9 +573,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white leading-tight text-balance">
               Your Kindness Can Put Food on Someone's Table.
             </h2>
-            <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl mx-auto font-body">
-              Every contribution helps us provide essential food and support to people who need it most.
-            </p>
+            <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl mx-auto font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {/* Interactive Amount Strip */}
@@ -679,9 +647,7 @@ export default function HomePage({
                   <span className="text-xs uppercase tracking-widest text-[#E7C071] font-bold">
                     The Heartbeat of Doris Kitchen
                   </span>
-                  <p className="font-heading font-bold text-lg mt-1">
-                    Over 140 volunteers bring warmth and nourishment every week
-                  </p>
+                  <p className="font-heading font-bold text-lg mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
             </div>
@@ -697,9 +663,7 @@ export default function HomePage({
                 </h2>
               </div>
 
-              <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">
-                Whether you can spare three hours on a Saturday morning, help chop vegetables on a Thursday afternoon, or drive a weekly food delivery round, your kindness creates an immediate, life-changing impact.
-              </p>
+              <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
               <div className="space-y-2.5 pt-1 text-sm text-[#596157]">
                 <div className="flex items-start gap-3">
@@ -749,9 +713,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Kindness That Brings Us Together.
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              Words of warmth and appreciation from community members, volunteers, and family parcel recipients.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
@@ -765,14 +727,12 @@ export default function HomePage({
               >
                 <div>
                   <Quote className="w-8 h-8 text-[#D9A441]/50 mb-3" />
-                  <p className="text-xs sm:text-sm text-[#242923] leading-relaxed italic font-body">
-                    “{t.quote}”
-                  </p>
+                  <p className="text-xs sm:text-sm text-[#242923] leading-relaxed italic font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div className="pt-4 border-t border-gray-100 mt-4">
-                  <p className="font-heading font-bold text-sm text-[#104C31]">{t.author}</p>
-                  <p className="text-xs text-[#B8852C] font-semibold">{t.role}</p>
-                  <p className="text-[11px] text-[#596157]">{t.location}</p>
+                  <p className="font-heading font-bold text-sm text-[#104C31]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p className="text-xs text-[#B8852C] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p className="text-[11px] text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
             ))}
@@ -792,9 +752,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-[#104C31]">
               Stronger Together.
             </h2>
-            <p className="text-xs sm:text-sm text-[#596157]">
-              Working hand-in-hand with growers, food rescue networks, and civic partners.
-            </p>
+            <p className="text-xs sm:text-sm text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {/* Partner logo strip */}
@@ -830,9 +788,7 @@ export default function HomePage({
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Frequently Asked Questions
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              Everything you need to know about accessing support, volunteering, and supporting our work.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {/* Accordion List */}
@@ -870,7 +826,7 @@ export default function HomePage({
           </div>
 
           <div className="text-center mt-10 p-6 bg-[#FAF2E4] rounded-2xl border border-[#D9A441]/35">
-            <p className="text-sm text-[#242923] font-semibold">Have a question not answered here?</p>
+            <p className="text-sm text-[#242923] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <button
               onClick={() => onNavigate('contact')}
               className="mt-2 text-xs font-heading font-bold text-[#176B45] hover:text-[#B8852C] transition-colors underline-offset-4 underline cursor-pointer"
@@ -894,9 +850,7 @@ export default function HomePage({
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#104C31] leading-tight text-balance">
                 Stories of Kindness, Community and Hope.
               </h2>
-              <p className="text-sm sm:text-base text-[#596157] font-body">
-                Read the latest news from our dining hall, volunteer profiles, and insights into local food security.
-              </p>
+              <p className="text-sm sm:text-base text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <button
               onClick={() => onNavigate('news')}
@@ -940,9 +894,7 @@ export default function HomePage({
                       {article.title}
                     </h3>
 
-                    <p className="text-xs sm:text-sm text-[#596157] leading-relaxed line-clamp-3 font-body">
-                      {article.excerpt}
-                    </p>
+                    <p className="text-xs sm:text-sm text-[#596157] leading-relaxed line-clamp-3 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
 
                   <div className="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-[#176B45] group-hover:text-[#B8852C] transition-colors">

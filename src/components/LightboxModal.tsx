@@ -78,9 +78,7 @@ export default function LightboxModal({ photo, photos, onClose, onSelectPhoto }:
             <h3 className="font-heading font-bold text-xl text-white">
               {photo.title}
             </h3>
-            <p className="text-sm text-[#FFF8ED]/80 mt-1 max-w-xl font-body">
-              {photo.caption}
-            </p>
+            <p className="text-sm text-[#FFF8ED]/80 mt-1 max-w-xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="text-xs text-[#FFF8ED]/60 shrink-0 font-mono">

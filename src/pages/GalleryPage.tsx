@@ -49,9 +49,7 @@ export default function GalleryPage({ onNavigate, onSelectPhoto }: GalleryPagePr
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Community Gallery
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            A window into the joy, teamwork, and human warmth that defines Doris Kindness Kitchen every single day.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -103,9 +101,7 @@ export default function GalleryPage({ onNavigate, onSelectPhoto }: GalleryPagePr
                       <Maximize2 className="w-4 h-4 text-[#E7C071]" />
                     </div>
                   </div>
-                  <p className="text-xs text-[#FFF8ED]/90 mt-2 line-clamp-2">
-                    {photo.caption}
-                  </p>
+                  <p className="text-xs text-[#FFF8ED]/90 mt-2 line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
               </div>
 
@@ -121,9 +117,7 @@ export default function GalleryPage({ onNavigate, onSelectPhoto }: GalleryPagePr
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-xs text-[#596157] italic">
-            * All photography taken with permission of guests and volunteers in compliance with UK GDPR and safeguarding standards.
-          </p>
+          <p className="text-xs text-[#596157] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
     </div>

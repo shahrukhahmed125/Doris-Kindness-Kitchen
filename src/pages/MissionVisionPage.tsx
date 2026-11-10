@@ -32,9 +32,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Our Mission & Vision
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            A relentless dedication to ensuring no individual or family in our community ever has to face hunger alone.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -53,12 +51,8 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-white">
                 Our Mission
               </h2>
-              <p className="text-lg sm:text-xl text-[#FFF8ED] leading-relaxed font-body font-normal">
-                To provide compassionate food assistance and practical support to people facing hardship, ensuring everyone feels valued, respected and cared for.
-              </p>
-              <p className="text-sm text-[#FFF8ED]/85 leading-relaxed font-body">
-                We believe in serving real, hot, home-cooked food rather than impersonal handouts. We combat loneliness alongside hunger, providing a safe and dignified environment where individuals can rebuild strength.
-              </p>
+              <p className="text-lg sm:text-xl text-[#FFF8ED] leading-relaxed font-body font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-sm text-[#FFF8ED]/85 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="pt-6 border-t border-white/20 mt-8 space-y-2 text-xs text-[#FFF8ED]/85">
@@ -85,12 +79,8 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
                 Our Vision
               </h2>
-              <p className="text-lg sm:text-xl text-[#104C31] leading-relaxed font-body font-medium">
-                A stronger, kinder community where everyone has access to nutritious food, dignity, opportunity and the support they need to thrive.
-              </p>
-              <p className="text-sm text-[#596157] leading-relaxed font-body">
-                We envision a society where no parent skips meals to feed their child, no pensioner shivers without warm food in winter, and mutual community support eliminates the stigma surrounding temporary poverty.
-              </p>
+              <p className="text-lg sm:text-xl text-[#104C31] leading-relaxed font-body font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="pt-6 border-t border-gray-100 mt-8 space-y-2 text-xs text-[#596157]">
@@ -117,42 +107,32 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Our Strategic Goals for 2026–2028
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              How we plan to scale our community impact and broaden emergency support across the borough.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-lg transition-all">
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">01</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Scale to 50,000 Meals</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Expand our kitchen cooking sessions from 3 days to 5 days weekly, ensuring consistent hot meals throughout the week.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-lg transition-all">
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">02</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Refrigerated Outreach Van</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Secure a dedicated electric van equipped with chilled and hot storage to service housebound residents and remote estates.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-lg transition-all">
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">03</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Community Cooking Academy</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Host free workshops teaching families how to cook delicious, budget-friendly whole-food meals with minimal energy usage.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-3 hover:shadow-lg transition-all">
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">04</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Grower Rescue Network</h3>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Partner with 15 additional local organic farms to prevent 10+ tonnes of fresh unharvested vegetables from going to landfill.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
@@ -165,9 +145,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-white">
             “No One Should Have to Face Hunger Alone.”
           </h2>
-          <p className="text-base text-[#FFF8ED]/90 max-w-xl mx-auto font-body">
-            Your generous donation turns this vision into steaming plates of hot stew and boxes of fresh bread for neighbors today.
-          </p>
+          <p className="text-base text-[#FFF8ED]/90 max-w-xl mx-auto font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div className="pt-2">
             <button
               onClick={onOpenDonate}

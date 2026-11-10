@@ -70,9 +70,7 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Kitchen
           <h3 className="font-heading font-bold text-2xl text-white">
             Volunteer Application
           </h3>
-          <p className="text-xs text-[#FFF8ED]/80 mt-1">
-            No formal culinary experience required—just empathy and a warm smile.
-          </p>
+          <p className="text-xs text-[#FFF8ED]/80 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
         {/* Form Body */}
@@ -205,13 +203,11 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Kitchen
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">
                 Application Received!
               </h3>
-              <p className="text-sm text-[#596157] font-body leading-relaxed max-w-sm mx-auto">
-                Thank you so much, <strong>{name || 'Volunteer'}</strong>. Our volunteer coordinator will contact you at <strong>{email || phone}</strong> within 48 hours with details about our next welcome session.
-              </p>
+              <p className="text-sm text-[#596157] font-body leading-relaxed max-w-sm mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className="p-3.5 bg-white rounded-xl border border-[#D9A441]/30 text-xs text-left space-y-1">
-                <p><strong>Role:</strong> {role}</p>
-                <p><strong>Availability:</strong> {availability.join(', ') || 'Flexible'}</p>
-                <p><strong>Next Induction:</strong> Wednesday, 18 November 2026 at 6:00 PM</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <button
                 onClick={handleReset}

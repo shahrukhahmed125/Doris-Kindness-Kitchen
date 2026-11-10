@@ -49,9 +49,7 @@ export default function ProjectsPage({ onNavigate, onOpenDonate }: ProjectsPageP
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Our Community Projects
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Targeted community initiatives designed to protect vulnerable households from holiday hunger, winter fuel crises, and social isolation.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -102,9 +100,7 @@ export default function ProjectsPage({ onNavigate, onOpenDonate }: ProjectsPageP
                   <h3 className="font-heading font-extrabold text-2xl text-[#104C31]">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-[#596157] mt-3 leading-relaxed font-body">
-                    {project.fullDesc}
-                  </p>
+                  <p className="text-sm text-[#596157] mt-3 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
                 <div className="pt-4 border-t border-gray-100 space-y-2 text-xs text-[#596157]">
@@ -146,9 +142,7 @@ export default function ProjectsPage({ onNavigate, onOpenDonate }: ProjectsPageP
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-white">
             Have an Idea for a Community Initiative?
           </h2>
-          <p className="text-base text-[#FFF8ED]/85 max-w-xl mx-auto font-body">
-            We partner with local schools, health centres, housing associations, and faith groups to launch hyper-local mutual aid projects.
-          </p>
+          <p className="text-base text-[#FFF8ED]/85 max-w-xl mx-auto font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <div className="pt-2">
             <button
               onClick={() => onNavigate('contact')}

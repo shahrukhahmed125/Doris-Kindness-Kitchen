@@ -56,9 +56,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Fundraising & Sponsorship
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Empower your business, school, or community group to make an indelible mark in the fight against food poverty.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -71,9 +69,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
             Corporate Sponsorship Packages
           </h2>
-          <p className="text-sm text-[#596157] font-body">
-            Tangible, ESG-aligned community investments that provide direct nourishment to families across the borough.
-          </p>
+          <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
@@ -84,9 +80,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               </span>
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Session Sponsor</h3>
               <div className="text-3xl font-heading font-extrabold text-[#176B45]">£500 / month</div>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Covers fresh food procurement, kitchen equipment maintenance, and energy utilities for two full community dining sessions.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
@@ -123,9 +117,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               </span>
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Kitchen Pillar</h3>
               <div className="text-3xl font-heading font-extrabold text-[#B8852C]">£1,500 / month</div>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Fully underwrites our School Holiday Family Hunger Relief programme, feeding 60 children breakfast and lunch every holiday week.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#B8852C]" />
@@ -158,9 +150,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               </span>
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Charity of the Year</h3>
               <div className="text-3xl font-heading font-extrabold text-[#176B45]">Bespoke Partnership</div>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Comprehensive 12-month partnership combining payroll giving, match-funding drives, and co-branded community events.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
@@ -198,31 +188,29 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
               Fundraise with Friends, Schools & Clubs
             </h2>
-            <p className="text-sm text-[#596157] font-body">
-              Fun, creative ways to mobilize your social circle in support of Doris Kindness Kitchen.
-            </p>
+            <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Gift className="w-8 h-8 text-[#D9A441]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Bake & Bread Sales</h4>
-              <p className="text-xs text-[#596157]">Organize a Saturday morning community bake sale at your local park, church, or school.</p>
+              <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Trophy className="w-8 h-8 text-[#176B45]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Sponsored Walks & 10Ks</h4>
-              <p className="text-xs text-[#596157]">Lace up your trainers and dedicate your next half marathon or 5k challenge to Doris Kitchen.</p>
+              <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <HandCoins className="w-8 h-8 text-[#D9A441]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Workplace Food Drives</h4>
-              <p className="text-xs text-[#596157]">Set up collection boxes in your office reception for non-perishable groceries and toiletries.</p>
+              <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Building2 className="w-8 h-8 text-[#176B45]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Pub Quiz / Music Nights</h4>
-              <p className="text-xs text-[#596157]">Host a charity quiz night with local venues with ticket proceeds helping feed local families.</p>
+              <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
@@ -238,9 +226,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-[#104C31]">
               Sponsorship & Fundraising Enquiry Form
             </h2>
-            <p className="text-xs text-[#596157]">
-              Let us know how your organization would like to partner with Doris Kindness Kitchen.
-            </p>
+            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           {!submitted ? (
@@ -321,9 +307,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             <div className="p-6 bg-[#FAF2E4] rounded-2xl border border-[#D9A441]/40 text-center space-y-3">
               <CheckCircle2 className="w-10 h-10 text-[#176B45] mx-auto" />
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Enquiry Received!</h3>
-              <p className="text-xs text-[#596157] max-w-md mx-auto">
-                Thank you, <strong>{contactName}</strong> from <strong>{orgName}</strong>. Our partnerships lead will be in touch at <strong>{email}</strong> within 1 working day with full corporate sponsorship documentation.
-              </p>
+              <p className="text-xs text-[#596157] max-w-md mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <button
                 onClick={() => setSubmitted(false)}
                 className="text-xs font-semibold text-[#176B45] hover:underline cursor-pointer"

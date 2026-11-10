@@ -58,9 +58,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             We'd Love to Hear From You
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Whether you need emergency food support, want to arrange a food collection, or have questions about volunteering, our team is here.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -76,9 +74,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
               <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-[#104C31] mt-1">
                 How Can We Help You Today?
               </h2>
-              <p className="text-xs sm:text-sm text-[#596157] mt-1">
-                All communications are treated with strict confidentiality, dignity, and care.
-              </p>
+              <p className="text-xs sm:text-sm text-[#596157] mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             {!submitted ? (
@@ -162,9 +158,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                   <CheckCircle2 className="w-10 h-10" />
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-[#104C31]">Message Sent!</h3>
-                <p className="text-sm text-[#596157] max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong>{name}</strong>. Your message regarding <em>{subject}</em> has been safely received. A member of our community team will reply to <strong>{email}</strong> promptly.
-                </p>
+                <p className="text-sm text-[#596157] max-w-md mx-auto leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button
                   onClick={() => setSubmitted(false)}
                   className="text-xs font-semibold text-[#176B45] hover:underline cursor-pointer"
@@ -242,9 +236,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                 <Bus className="w-4 h-4 text-[#D9A441]" />
                 <span>Public Transport & Accessibility</span>
               </h4>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Our community hall is 100% wheelchair accessible with level street entry and accessible rest facilities. Located a 4-minute walk from Central High Street Station (buses 14, 22, 55, 78 stop directly outside).
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>
@@ -285,9 +277,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
               <h4 className="font-heading font-bold text-base text-[#104C31]">
                 Doris Kindness Kitchen CIC Hub
               </h4>
-              <p className="text-xs text-[#596157] mt-1 font-body">
-                St. Jude Community Hall, High Street, Borough, UK
-              </p>
+              <p className="text-xs text-[#596157] mt-1 font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <div className="mt-3 pt-3 border-t border-gray-100 flex items-center justify-center gap-4 text-[11px] text-[#176B45] font-semibold">
                 <span>Free Street Parking (1h)</span>
                 <span>·</span>

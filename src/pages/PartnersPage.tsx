@@ -42,9 +42,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight">
             Our Community Partners
           </h1>
-          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            We work alongside ethical growers, civic trusts, redistribution charities, and healthcare teams to build a resilient food safety net.
-          </p>
+          <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </section>
 
@@ -57,9 +55,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#104C31]">
             Stronger Together in Mutual Aid
           </h2>
-          <p className="text-sm text-[#596157] font-body">
-            A diverse network of food businesses, civic leaders, and volunteer groups who supply ingredients, funding, and facilities.
-          </p>
+          <p className="text-sm text-[#596157] font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -82,9 +78,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
                   {partner.name}
                 </h3>
 
-                <p className="text-xs sm:text-sm text-[#596157] leading-relaxed font-body">
-                  {partner.contribution}
-                </p>
+                <p className="text-xs sm:text-sm text-[#596157] leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
 
               <div className="pt-6 mt-6 border-t border-gray-100 flex items-center text-xs font-semibold text-[#176B45]">
@@ -114,9 +108,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
                 01
               </div>
               <h4 className="font-heading font-bold text-base text-[#104C31]">Food Surplus Redistribution</h4>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Supermarkets, restaurants, and wholesalers can redirect surplus quality ingredients to our commercial kitchen with certified cold-chain collection.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-3 transform hover:-translate-y-1">
@@ -124,9 +116,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
                 02
               </div>
               <h4 className="font-heading font-bold text-base text-[#104C31]">Healthcare & Civic Referral</h4>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Social prescribers, GPs, schools, and housing officers can easily signpost vulnerable clients for instant food parcel deliveries without bureaucratic delay.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-3 transform hover:-translate-y-1">
@@ -134,9 +124,7 @@ export default function PartnersPage({ onNavigate, onOpenDonate }: PartnersPageP
                 03
               </div>
               <h4 className="font-heading font-bold text-base text-[#104C31]">Corporate Social Grants</h4>
-              <p className="text-xs text-[#596157] leading-relaxed">
-                Trusts and foundations can fund capital investments—such as electric delivery vans, commercial walk-in freezers, and dry pantry storage racking.
-              </p>
+              <p className="text-xs text-[#596157] leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
 

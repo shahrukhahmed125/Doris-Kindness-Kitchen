@@ -626,9 +626,7 @@ export default function Header({ currentPage, onNavigate, onOpenDonate }: Header
                   <Phone className="w-3.5 h-3.5" />
                   <span>Call Emergency Line: 0800 456 7890</span>
                 </div>
-                <p className="text-[11px] text-[#FFF8ED]/70 leading-relaxed font-body">
-                  St. Jude Community Hall, High Street, Borough, London. Hot meals served Tuesdays & Thursdays at 12:00 PM.
-                </p>
+                <p className="text-[11px] text-[#FFF8ED]/70 leading-relaxed font-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
             </div>
 

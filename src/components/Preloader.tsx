@@ -102,9 +102,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             >
               Feeding Hope, Sharing Love and Changing Lives.
             </motion.p>
-            <p className="text-xs uppercase tracking-widest text-[#FFF8ED]/70 font-sans">
-              Community Interest Company · UK
-            </p>
+            <p className="text-xs uppercase tracking-widest text-[#FFF8ED]/70 font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </motion.div>
 
           {/* Skip button for user convenience */}
