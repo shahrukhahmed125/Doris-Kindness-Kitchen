@@ -1,0 +1,257 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Outfit', 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-brand-green: #176B45;
+  --color-brand-green-dark: #104C31;
+  --color-brand-green-light: #238E5D;
+  --color-brand-gold: #D9A441;
+  --color-brand-gold-dark: #B8852C;
+  --color-brand-gold-light: #E7C071;
+  --color-brand-cream: #FFF8ED;
+  --color-brand-cream-dark: #F7EBD8;
+  --color-brand-dark: #242923;
+  --color-brand-muted: #596157;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', 'Open Sans', sans-serif;
+    color: #242923;
+    background-color: #FFF8ED;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', 'Poppins', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* =========================================================================
+   LOOP ANIMATIONS FOR IMAGES & BADGES
+   ========================================================================= */
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(0.4deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(-0.4deg);
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes kenBurnsLoop {
+  0%, 100% {
+    transform: scale(1.02) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1.08) translate(-1%, -1%);
+  }
+}
+
+@keyframes pulseGoldGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(217, 164, 65, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(217, 164, 65, 0.55);
+  }
+}
+
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 7.5s ease-in-out infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 4.5s ease-in-out infinite;
+}
+
+.animate-ken-burns {
+  animation: kenBurnsLoop 22s ease-in-out infinite;
+}
+
+.animate-gold-glow {
+  animation: pulseGoldGlow 3.5s ease-in-out infinite;
+}
+
+.animate-rotate-slow {
+  animation: rotateSlow 24s linear infinite;
+}
+
+/* =========================================================================
+   SEXY BUTTON HOVER SYSTEM
+   ========================================================================= */
+
+.btn-sexy-gold {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #D9A441 0%, #E7C071 50%, #D9A441 100%);
+  background-size: 200% auto;
+  color: #104C31;
+  font-family: 'Outfit', 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 9999px;
+  box-shadow: 0 6px 20px rgba(217, 164, 65, 0.35);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.btn-sexy-gold:hover {
+  background-position: right center;
+  box-shadow: 0 12px 30px rgba(217, 164, 65, 0.6);
+  transform: translateY(-2px) scale(1.02);
+  color: #0c3623;
+}
+
+.btn-sexy-gold:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.btn-sexy-gold::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: transform 0.65s ease;
+}
+
+.btn-sexy-gold:hover::after {
+  transform: translateX(200%);
+}
+
+.btn-sexy-green {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #176B45 0%, #104C31 100%);
+  color: #FFF8ED;
+  font-family: 'Outfit', 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 9999px;
+  box-shadow: 0 6px 20px rgba(23, 107, 69, 0.3);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(217, 164, 65, 0.35);
+  cursor: pointer;
+}
+
+.btn-sexy-green:hover {
+  box-shadow: 0 12px 30px rgba(23, 107, 69, 0.5), 0 0 20px rgba(217, 164, 65, 0.4);
+  transform: translateY(-2px) scale(1.02);
+  border-color: #D9A441;
+}
+
+.btn-sexy-green:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.btn-sexy-outline {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  color: #FFFFFF;
+  border: 1.5px solid rgba(255, 248, 237, 0.5);
+  font-family: 'Outfit', 'Poppins', sans-serif;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.btn-sexy-outline:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #D9A441;
+  color: #FFF8ED;
+  box-shadow: 0 8px 25px rgba(217, 164, 65, 0.35);
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* =========================================================================
+   MARQUEE KEYFRAMES
+   ========================================================================= */
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marqueeReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marqueeReverse 30s linear infinite;
+}
+
+.animate-marquee:hover, .animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* =========================================================================
+   60PX SECTION SPACING HELPER
+   ========================================================================= */
+
+.section-py-60 {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
