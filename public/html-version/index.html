@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doris Kindness Kitchen CIC | Feeding Hope, Sharing Love and Changing Lives</title>
+  <meta name="description" content="Feeding Hope, Sharing Love and Changing Lives. Doris Kindness Kitchen CIC is a UK community interest company providing free nutritious meals, food parcels, and compassionate support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="images/WhatsApp_Image_2026-11-09_at_11.17.05_AM_0d1daad8.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery 3.7.1 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       SITE HEADER
+       ========================================================================= -->
+  <header class="site-header">
+    <!-- Utility Announcement Bar -->
+    <div id="utilityBar" class="utility-bar">
+      <div class="container" style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="color: #E7C071; font-weight: 600;">✨ Feeding Hope, Sharing Love and Changing Lives</span>
+          <span style="opacity: 0.5;">|</span>
+          <span style="opacity: 0.9;">UK Community Interest Company (CIC)</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <span>📞 Emergency Line: <strong>0800 456 7890</strong></span>
+          <span style="opacity: 0.5;">|</span>
+          <span>⏰ Hot Lunches: Tue & Thu 12:00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div id="mainNav" class="main-nav">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#" data-page="home" class="brand-logo-wrap">
+          <div class="logo-box">
+            <img src="images/WhatsApp_Image_2026-11-09_at_11.17.05_AM_0d1daad8.jpg" alt="Doris Kindness Kitchen CIC">
+          </div>
+          <div class="brand-text">
+            <h1>Doris Kindness Kitchen</h1>
+            <span>Community Interest Company</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav">
+          <a href="#" data-page="home" class="nav-link active">Home</a>
+          
+          <div class="nav-item-dropdown">
+            <a href="#" data-page="about" class="nav-link">About Us ▾</a>
+            <div class="dropdown-menu">
+              <a href="#" data-page="about" class="dropdown-item">
+                <div>
+                  <strong>Our Story & History</strong>
+                  <small>Matriarch Doris & Heritage</small>
+                </div>
+              </a>
+              <a href="#" data-page="mission" class="dropdown-item">
+                <div>
+                  <strong>Mission & Vision</strong>
+                  <small>Strategy, Values & 2030 Goals</small>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <a href="#" data-page="services" class="nav-link">Our Services</a>
+          <a href="#" data-page="projects" class="nav-link">Projects</a>
+
+          <div class="nav-item-dropdown">
+            <a href="#" data-page="donate" class="nav-link">Get Involved ▾</a>
+            <div class="dropdown-menu">
+              <a href="#" data-page="donate" class="dropdown-item">
+                <div>
+                  <strong>Donate to Kitchen</strong>
+                  <small>Support daily outreach meals</small>
+                </div>
+              </a>
+              <a href="#" data-page="volunteer" class="dropdown-item">
+                <div>
+                  <strong>Become a Volunteer</strong>
+                  <small>Kitchen & mobile serving teams</small>
+                </div>
+              </a>
+              <a href="#" data-page="fundraising" class="dropdown-item">
+                <div>
+                  <strong>Fundraising & Sponsorship</strong>
+                  <small>Corporate & community support</small>
+                </div>
+              </a>
+              <a href="#" data-page="partners" class="dropdown-item">
+                <div>
+                  <strong>Our Partners</strong>
+                  <small>Community network & allies</small>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <a href="#" data-page="news" class="nav-link">Stories & News</a>
+          <a href="#" data-page="gallery" class="nav-link">Gallery</a>
+          <a href="#" data-page="contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- CTA & Mobile Trigger -->
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <button data-open-donate class="btn-sexy-gold">
+            <span>❤️ Donate Now</span>
+          </button>
+          <button id="openMobileMenu" class="mobile-menu-btn">
+            <span>☰ Menu</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Slide-out Drawer -->
+  <div id="mobileDrawerOverlay" class="mobile-drawer-overlay">
+    <div class="mobile-drawer">
+      <div class="drawer-header">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="logo-box" style="padding: 2px;">
+            <img src="images/WhatsApp_Image_2026-11-09_at_11.17.05_AM_0d1daad8.jpg" alt="Logo" style="height: 32px;">
+          </div>
+          <div>
+            <strong style="display: block; font-size: 0.875rem;">Doris Kindness Kitchen</strong>
+            <small style="color: var(--color-brand-gold);">Feeding Hope · Sharing Love</small>
+          </div>
+        </div>
+        <button id="closeMobileMenu" style="font-size: 1.5rem; color: #FFF; cursor: pointer;">✕</button>
+      </div>
+
+      <div class="drawer-body">
+        <div>
+          <span class="drawer-section-title">Navigation</span>
+          <a href="#" data-page="home" class="drawer-link active">Home</a>
+          <a href="#" data-page="about" class="drawer-link">Our Story & History</a>
+          <a href="#" data-page="mission" class="drawer-link">Mission & Vision</a>
+          <a href="#" data-page="services" class="drawer-link">Our Services</a>
+          <a href="#" data-page="projects" class="drawer-link">Community Projects</a>
+        </div>
+
+        <div>
+          <span class="drawer-section-title">Get Involved</span>
+          <a href="#" data-page="donate" class="drawer-link">Donate to Kitchen</a>
+          <a href="#" data-page="volunteer" class="drawer-link">Become a Volunteer</a>
+          <a href="#" data-page="fundraising" class="drawer-link">Fundraising & CSR</a>
+          <a href="#" data-page="partners" class="drawer-link">Our Partners</a>
+        </div>
+
+        <div>
+          <span class="drawer-section-title">Connect</span>
+          <a href="#" data-page="news" class="drawer-link">Stories & News</a>
+          <a href="#" data-page="gallery" class="drawer-link">Photo Gallery</a>
+          <a href="#" data-page="contact" class="drawer-link">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <button data-open-donate class="btn-sexy-gold" style="width: 100%;">
+          <span>❤️ Make a Donation Now</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       PAGE CONTENT (Single Page Tab Architecture)
+       ========================================================================= -->
+
+  <!-- HOME PAGE SECTION -->
+  <main id="page-home" class="page-section">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-bg-media">
+        <img src="images/street_meal_outreach_hero_1794480885242.jpg" alt="Doris Kindness Kitchen volunteers serving meals directly" class="animate-ken-burns">
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div>
+          <div class="tag-badge">
+            <span>✨ Feeding Hope, Sharing Love & Changing Lives</span>
+          </div>
+          <h1 class="hero-title">
+            Taking Kindness to Those <span class="text-gold-gradient">Who Need It Most.</span>
+          </h1>
+          <p class="hero-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="hero-cta-group">
+            <button data-open-donate class="btn-sexy-gold" style="padding: 0.85rem 1.75rem; font-size: 0.9375rem;">
+              <span>❤️ Donate Now</span>
+            </button>
+            <button data-page="about" class="btn-sexy-outline" style="padding: 0.85rem 1.75rem;">
+              <span>Explore Our Story →</span>
+            </button>
+          </div>
+
+          <div class="hero-trust-list">
+            <span>✓ Lorem ipsum dolor sit amet</span>
+            <span>✓ Consectetur adipiscing elit</span>
+            <span>✓ Sed do eiusmod tempor</span>
+          </div>
+        </div>
+
+        <!-- Hero Quick Action Card -->
+        <div>
+          <div class="quick-donate-card animate-float-gentle">
+            <div class="card-heading">
+              <span>Direct Outreach Goal</span>
+              <span class="badge">Active</span>
+            </div>
+            <div class="progress-info">
+              <strong>650+</strong>
+              <small style="color: var(--color-brand-muted); font-weight: 600;">Meals Prepared</small>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin-bottom: 1.25rem;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button data-open-donate class="btn-sexy-green" style="width: 100%;">
+              <span>Support Our Outreach</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Moving Marquee -->
+    <div class="marquee-strip green-theme">
+      <div class="marquee-content">
+        <span>DIRECT FOOD OUTREACH • SERVING WITH DIGNITY • REACHING PEOPLE WHERE THEY ARE • HOPE IN ACTION • FEEDING HOPE • SHARING LOVE • CHANGING LIVES • DIRECT FOOD OUTREACH • SERVING WITH DIGNITY • REACHING PEOPLE WHERE THEY ARE</span>
+      </div>
+    </div>
+
+    <!-- About Intro Section -->
+    <section class="py-60" style="background: var(--color-brand-cream);">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center;" class="grid-about">
+          <div>
+            <div style="position: relative; border-radius: 1.5rem; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.15); border: 4px solid #FFF;">
+              <img src="images/packing_meals_outreach_1794480899910.jpg" alt="Volunteers packing meals" class="animate-float-slow">
+            </div>
+          </div>
+          <div>
+            <span class="section-label">ABOUT OUR MISSION</span>
+            <h2 class="section-title">More Than a Meal. A Message of Hope.</h2>
+            <p class="section-desc" style="margin-bottom: 1rem;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="section-desc" style="margin-bottom: 1.5rem;">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button data-page="about" class="btn-sexy-green">
+              <span>Learn About Our Story →</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-60" style="background: var(--color-brand-cream-dark);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">KINDNESS IN ACTION</span>
+          <h2 class="section-title">Taking Hope Beyond Our Kitchen.</h2>
+          <p class="section-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <div class="content-card">
+            <span style="font-size: 1.5rem; font-weight: 800; color: var(--color-brand-gold);">01</span>
+            <h3 style="font-size: 1.125rem; margin: 0.5rem 0;">Direct Street Meals</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            <a href="#" data-page="services" style="color: var(--color-brand-green); font-weight: 700; font-size: 0.75rem; margin-top: 1rem;">Learn More →</a>
+          </div>
+
+          <div class="content-card">
+            <span style="font-size: 1.5rem; font-weight: 800; color: var(--color-brand-gold);">02</span>
+            <h3 style="font-size: 1.125rem; margin: 0.5rem 0;">Mobile Outreach Van</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            <a href="#" data-page="services" style="color: var(--color-brand-green); font-weight: 700; font-size: 0.75rem; margin-top: 1rem;">Learn More →</a>
+          </div>
+
+          <div class="content-card">
+            <span style="font-size: 1.5rem; font-weight: 800; color: var(--color-brand-gold);">03</span>
+            <h3 style="font-size: 1.125rem; margin: 0.5rem 0;">Warmth & Care Supplies</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            <a href="#" data-page="services" style="color: var(--color-brand-green); font-weight: 700; font-size: 0.75rem; margin-top: 1rem;">Learn More →</a>
+          </div>
+
+          <div class="content-card">
+            <span style="font-size: 1.5rem; font-weight: 800; color: var(--color-brand-gold);">04</span>
+            <h3 style="font-size: 1.125rem; margin: 0.5rem 0;">Doorstep Support</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+            <a href="#" data-page="services" style="color: var(--color-brand-green); font-weight: 700; font-size: 0.75rem; margin-top: 1rem;">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outreach Projects Section -->
+    <section class="py-60" style="background: var(--color-brand-cream);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">DIRECT OUTREACH</span>
+          <h2 class="section-title">Reaching People Where They Are.</h2>
+          <p class="section-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="content-card">
+            <div style="border-radius: 1rem; overflow: hidden; height: 180px; margin-bottom: 1rem;">
+              <img src="images/street_meal_handover_1794480913856.jpg" alt="Outreach initiative" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 style="font-size: 1.25rem;">Street Outreach & Hot Stews</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+            <button data-open-donate class="btn-sexy-gold" style="width: 100%; font-size: 0.75rem;">Support Outreach</button>
+          </div>
+
+          <div class="content-card">
+            <div style="border-radius: 1rem; overflow: hidden; height: 180px; margin-bottom: 1rem;">
+              <img src="images/mobile_outreach_serving_1794480928341.jpg" alt="Mobile outreach van" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 style="font-size: 1.25rem;">Mobile Food Van Mission</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+            <button data-open-donate class="btn-sexy-gold" style="width: 100%; font-size: 0.75rem;">Support Outreach</button>
+          </div>
+
+          <div class="content-card">
+            <div style="border-radius: 1rem; overflow: hidden; height: 180px; margin-bottom: 1rem;">
+              <img src="images/street_meal_outreach_hero_1794480885242.jpg" alt="Direct handover" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 style="font-size: 1.25rem;">Direct Food Outreach Rounds</h3>
+            <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+            <button data-open-donate class="btn-sexy-gold" style="width: 100%; font-size: 0.75rem;">Support Outreach</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donation Appeal Section -->
+    <section class="py-60" style="background: var(--color-brand-green-dark); color: #FFFFFF; text-align: center;">
+      <div class="container" style="max-w: 720px; margin: 0 auto;">
+        <span class="tag-badge" style="margin-bottom: 1rem;">HELP US FEED OUR COMMUNITY</span>
+        <h2 style="color: #FFFFFF; font-size: 2.5rem; margin-bottom: 1rem;">Help Us Take Kindness Further.</h2>
+        <p style="color: rgba(255, 248, 237, 0.9); margin-bottom: 2rem; font-size: 1.0625rem;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+        <button data-open-donate class="btn-sexy-gold" style="padding: 1rem 2.5rem; font-size: 1rem;">
+          <span>❤️ Donate Towards Outreach</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-60" style="background: var(--color-brand-cream-dark);">
+      <div class="container" style="max-width: 800px;">
+        <div class="section-header">
+          <span class="section-label">FREQUENTLY ASKED QUESTIONS</span>
+          <h2 class="section-title">Common Questions About Outreach</h2>
+          <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+
+        <div class="accordion-item open">
+          <button class="accordion-header">
+            <span>What is Doris Kindness Kitchen CIC's direct outreach mission?</span>
+            <span>▾</span>
+          </button>
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>How do volunteers serve meals directly in the community?</span>
+            <span>▾</span>
+          </button>
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>How does the mobile food outreach van operate?</span>
+            <span>▾</span>
+          </button>
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ABOUT PAGE SECTION -->
+  <section id="page-about" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">More Than a Meal. A Message of Hope.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+        <div>
+          <span class="section-label">DIRECT FOOD OUTREACH</span>
+          <h2 class="section-title">Taking Hope Beyond Our Kitchen.</h2>
+          <p class="section-desc" style="margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="section-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div>
+          <img src="images/packing_meals_outreach_1794480899910.jpg" alt="About Doris Kindness Kitchen" style="border-radius: 1.5rem; box-shadow: 0 15px 35px rgba(0,0,0,0.15); border: 4px solid #FFF;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PAGE SECTION -->
+  <section id="page-services" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">Kindness in Action.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div class="service-row">
+        <div class="service-img-col">
+          <div class="service-img-wrap">
+            <img src="images/street_meal_outreach_hero_1794480885242.jpg" alt="Direct street meal outreach">
+            <span class="service-tag">Outreach 01</span>
+          </div>
+        </div>
+        <div class="service-text-col">
+          <span class="section-label">OUTREACH 01</span>
+          <h2 class="section-title">Direct Street Meal Outreach</h2>
+          <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button data-open-donate class="btn-sexy-green" style="margin-top: 1.5rem;">Support This Outreach</button>
+        </div>
+      </div>
+
+      <div class="service-row reversed">
+        <div class="service-img-col">
+          <div class="service-img-wrap">
+            <img src="images/mobile_outreach_serving_1794480928341.jpg" alt="Mobile outreach van">
+            <span class="service-tag">Outreach 02</span>
+          </div>
+        </div>
+        <div class="service-text-col">
+          <span class="section-label">OUTREACH 02</span>
+          <h2 class="section-title">Mobile Food Outreach Van</h2>
+          <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button data-open-donate class="btn-sexy-green" style="margin-top: 1.5rem;">Support This Outreach</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE PAGE SECTION -->
+  <section id="page-donate" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">Help Us Take Kindness Further.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div class="grid-4">
+        <div class="content-card" style="text-align: center;">
+          <h3 style="font-size: 1.25rem;">Direct Supporter</h3>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-brand-green); margin: 0.5rem 0;">£10</div>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin-bottom: 1.5rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button data-open-donate data-amount="10" class="btn-sexy-green" style="width: 100%;">Donate £10</button>
+        </div>
+
+        <div class="content-card" style="text-align: center; border: 2px solid var(--color-brand-gold);">
+          <span style="background: var(--color-brand-gold); color: var(--color-brand-green-dark); font-size: 11px; font-weight: 800; padding: 2px 10px; border-radius: 9999px; display: inline-block; margin-bottom: 0.5rem;">Most Needed</span>
+          <h3 style="font-size: 1.25rem;">Street Champion</h3>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-brand-green); margin: 0.5rem 0;">£25</div>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin-bottom: 1.5rem;">Ut enim ad minima veniam, quis nostrum exercitationem ullam.</p>
+          <button data-open-donate data-amount="25" class="btn-sexy-gold" style="width: 100%;">Donate £25</button>
+        </div>
+
+        <div class="content-card" style="text-align: center;">
+          <h3 style="font-size: 1.25rem;">Community Pillar</h3>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-brand-green); margin: 0.5rem 0;">£50</div>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin-bottom: 1.5rem;">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+          <button data-open-donate data-amount="50" class="btn-sexy-green" style="width: 100%;">Donate £50</button>
+        </div>
+
+        <div class="content-card" style="text-align: center;">
+          <h3 style="font-size: 1.25rem;">Outreach Benefactor</h3>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-brand-green); margin: 0.5rem 0;">£100</div>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin-bottom: 1.5rem;">Temporibus autem quibusdam et aut officiis debitis.</p>
+          <button data-open-donate data-amount="100" class="btn-sexy-green" style="width: 100%;">Donate £100</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER PAGE SECTION -->
+  <section id="page-volunteer" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">Take Kindness Into the Community.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div class="grid-3">
+        <div class="content-card">
+          <h3 style="font-size: 1.25rem;">Street Serving Volunteer</h3>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button data-open-volunteer class="btn-sexy-green" style="width: 100%;">Apply to Volunteer</button>
+        </div>
+        <div class="content-card">
+          <h3 style="font-size: 1.25rem;">Outreach Van Driver</h3>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button data-open-volunteer class="btn-sexy-green" style="width: 100%;">Apply to Volunteer</button>
+        </div>
+        <div class="content-card">
+          <h3 style="font-size: 1.25rem;">Meal Packing Assistant</h3>
+          <p style="font-size: 0.8125rem; color: var(--color-brand-muted); margin: 0.5rem 0 1.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button data-open-volunteer class="btn-sexy-green" style="width: 100%;">Apply to Volunteer</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY PAGE SECTION -->
+  <section id="page-gallery" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">Moments of Kindness.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div class="grid-3">
+        <div style="border-radius: 1.5rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border: 2px solid #FFF;">
+          <img src="images/street_meal_outreach_hero_1794480885242.jpg" alt="Outreach photo 1" style="width: 100%; height: 260px; object-fit: cover;">
+          <div style="padding: 1rem; background: #FFF;">
+            <strong>Serving Hope on the Streets</strong>
+            <p style="font-size: 0.75rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div style="border-radius: 1.5rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border: 2px solid #FFF;">
+          <img src="images/packing_meals_outreach_1794480899910.jpg" alt="Outreach photo 2" style="width: 100%; height: 260px; object-fit: cover;">
+          <div style="padding: 1rem; background: #FFF;">
+            <strong>Packing Fresh Meals for Street Outreach</strong>
+            <p style="font-size: 0.75rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div style="border-radius: 1.5rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border: 2px solid #FFF;">
+          <img src="images/mobile_outreach_serving_1794480928341.jpg" alt="Outreach photo 3" style="width: 100%; height: 260px; object-fit: cover;">
+          <div style="padding: 1rem; background: #FFF;">
+            <strong>Mobile Outreach Van in Action</strong>
+            <p style="font-size: 0.75rem; color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT PAGE SECTION -->
+  <section id="page-contact" class="page-section" style="display: none; padding-top: 130px;">
+    <div class="py-60" style="background: var(--color-brand-green-dark); color: #FFF; text-align: center;">
+      <div class="container">
+        <h1 style="color: #FFF; font-size: 3rem;">Let's Make a Difference Together.</h1>
+        <p style="color: rgba(255,248,237,0.85); max-width: 600px; margin: 1rem auto 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="container py-60">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+        <div class="content-card">
+          <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Send a Message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-input" required placeholder="Eleanor Davis">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" required placeholder="eleanor@example.co.uk">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-textarea" rows="4" required placeholder="Lorem ipsum dolor sit amet..."></textarea>
+            </div>
+            <button type="submit" class="btn-sexy-gold" style="width: 100%;">Send Message</button>
+          </form>
+          <div id="contactSuccessMsg" style="display: none; padding: 1rem; background: var(--color-brand-cream-dark); border-radius: 0.75rem; text-align: center; color: var(--color-brand-green); font-weight: bold;">
+            ✓ Message Sent Successfully!
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Reaching People Where They Are</h2>
+          <div style="margin-bottom: 1.5rem; font-size: 0.875rem; color: var(--color-brand-muted); line-height: 1.8;">
+            <p>📍 <strong>Outreach Hub:</strong> St. Jude Community Hall, High Street, Borough, UK</p>
+            <p>📞 <strong>Phone:</strong> 0800 456 7890 / 020 7946 0812</p>
+            <p>✉️ <strong>Email:</strong> hello@doriskindnesskitchen.org.uk</p>
+          </div>
+          <div style="padding: 1rem; background: var(--color-brand-cream-dark); border-radius: 0.75rem;">
+            <strong>Direct Outreach Hours:</strong>
+            <p style="font-size: 0.75rem; color: var(--color-brand-muted); margin-top: 0.25rem;">
+              Tuesday & Thursday: 12:00 – 14:30<br>
+              Saturday Community Breakfast: 11:30 – 15:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- Newsletter Banner -->
+      <div class="footer-newsletter-banner">
+        <div>
+          <span style="font-size: 11px; text-transform: uppercase; color: var(--color-brand-gold-light); font-weight: 700;">DIRECT OUTREACH</span>
+          <h3 style="color: #FFF; font-size: 1.75rem; margin-top: 0.25rem;">Be Part of Something Good.</h3>
+          <p style="font-size: 0.875rem; color: rgba(255,248,237,0.8); margin-top: 0.5rem;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <form id="newsletterForm" style="display: flex; gap: 0.5rem; min-width: 300px;">
+          <input type="email" placeholder="Enter your email..." required style="padding: 0.75rem 1rem; border-radius: 0.75rem; border: 1px solid rgba(217,164,65,0.4); background: #0B3522; color: #FFF; outline: none; flex: 1; font-size: 0.875rem;">
+          <button type="submit" class="btn-sexy-gold">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Links Grid -->
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="background: #FFF; display: inline-block; padding: 4px 8px; border-radius: 12px; margin-bottom: 1rem;">
+            <img src="images/WhatsApp_Image_2026-11-09_at_11.17.05_AM_0d1daad8.jpg" alt="Logo" style="height: 48px;">
+          </div>
+          <p style="font-size: 0.8125rem; color: rgba(255,248,237,0.8); line-height: 1.6; margin-bottom: 1rem;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+          <button data-open-donate class="btn-sexy-gold" style="font-size: 0.75rem;">Support Our Outreach</button>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" data-page="home">Home</a></li>
+            <li><a href="#" data-page="about">About Us</a></li>
+            <li><a href="#" data-page="services">Our Services</a></li>
+            <li><a href="#" data-page="gallery">Moments of Kindness</a></li>
+            <li><a href="#" data-page="contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kindness in Action</h4>
+          <ul>
+            <li><a href="#" data-page="services">Direct Street Meals</a></li>
+            <li><a href="#" data-page="services">Mobile Outreach Van</a></li>
+            <li><a href="#" data-page="volunteer">Become a Volunteer</a></li>
+            <li><a href="#" data-page="donate">Help Us Take Kindness Further</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact & Location</h4>
+          <p style="font-size: 0.8125rem; color: rgba(255,248,237,0.8); line-height: 1.6;">
+            📍 St. Jude Community Hall, High Street, Borough, London UK<br>
+            📞 0800 456 7890 / 020 7946 0812<br>
+            ✉️ hello@doriskindnesskitchen.org.uk
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <span>© 2026 Doris Kindness Kitchen CIC. All rights reserved.</span>
+        <span>Feeding Hope · Sharing Love · Changing Lives</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODALS
+       ========================================================================= -->
+
+  <!-- Donation Modal -->
+  <div id="donateModal" class="modal-overlay">
+    <div class="modal-box">
+      <div class="modal-header">
+        <button id="closeDonateModal" class="modal-close-btn">✕</button>
+        <span style="font-size: 11px; text-transform: uppercase; color: var(--color-brand-gold-light); font-weight: 700;">DIRECT FOOD OUTREACH</span>
+        <h3>Help Us Take Kindness Further</h3>
+        <p style="font-size: 12px; color: rgba(255,248,237,0.8);">Feeding Hope, Sharing Love and Changing Lives.</p>
+      </div>
+      <div class="modal-body">
+        <form id="donationForm">
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; margin-bottom: 1rem;">
+            <button type="button" class="quick-amt-btn" data-amt="10" style="padding: 0.5rem; border: 1px solid var(--color-brand-gold); border-radius: 8px; font-weight: bold; background: #FFF;">£10</button>
+            <button type="button" class="quick-amt-btn active" data-amt="25" style="padding: 0.5rem; border: 1px solid var(--color-brand-gold); border-radius: 8px; font-weight: bold; background: var(--color-brand-gold); color: #104C31;">£25</button>
+            <button type="button" class="quick-amt-btn" data-amt="50" style="padding: 0.5rem; border: 1px solid var(--color-brand-gold); border-radius: 8px; font-weight: bold; background: #FFF;">£50</button>
+            <button type="button" class="quick-amt-btn" data-amt="100" style="padding: 0.5rem; border: 1px solid var(--color-brand-gold); border-radius: 8px; font-weight: bold; background: #FFF;">£100</button>
+          </div>
+
+          <div style="background: var(--color-brand-cream-dark); padding: 0.75rem; border-radius: 8px; margin-bottom: 1rem; font-size: 12px;">
+            <strong>Your Impact with <span id="selectedDonationVal">£25</span>:</strong>
+            <p style="color: var(--color-brand-muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" required placeholder="Eleanor Davis">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="eleanor@example.co.uk">
+          </div>
+          <input type="hidden" id="donationAmtInput" value="25">
+
+          <button type="submit" class="btn-sexy-gold" style="width: 100%; margin-top: 1rem;">Donate Now</button>
+        </form>
+
+        <div id="donationSuccessScreen" style="display: none; text-align: center; padding: 1.5rem 0;">
+          <div style="font-size: 3rem; margin-bottom: 0.5rem;">🎉</div>
+          <h3 style="color: var(--color-brand-green); font-size: 1.5rem;">Thank You for Your Generosity!</h3>
+          <p style="font-size: 0.875rem; color: var(--color-brand-muted); margin: 0.75rem 0 1.5rem 0;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button id="closeDonationSuccess" class="btn-sexy-green" style="width: 100%;">Close & Return</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Volunteer Modal -->
+  <div id="volunteerModal" class="modal-overlay">
+    <div class="modal-box">
+      <div class="modal-header">
+        <button id="closeVolunteerModal" class="modal-close-btn">✕</button>
+        <span style="font-size: 11px; text-transform: uppercase; color: var(--color-brand-gold-light); font-weight: 700;">VOLUNTEER PROGRAMME</span>
+        <h3>Take Kindness Into the Community</h3>
+      </div>
+      <div class="modal-body">
+        <form id="volunteerForm">
+          <div class="form-group">
+            <label class="form-label">Preferred Volunteer Role</label>
+            <select class="form-select">
+              <option>Street Meal Serving Volunteer</option>
+              <option>Outreach Van Driver & Mobile Server</option>
+              <option>Meal Packing & Prep Assistant</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-input" required placeholder="Eleanor Davis">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required placeholder="eleanor@example.co.uk">
+          </div>
+          <button type="submit" class="btn-sexy-green" style="width: 100%; margin-top: 1rem;">Apply to Volunteer</button>
+        </form>
+
+        <div id="volunteerSuccessScreen" style="display: none; text-align: center; padding: 1.5rem 0;">
+          <div style="font-size: 3rem; margin-bottom: 0.5rem;">🤝</div>
+          <h3 style="color: var(--color-brand-green); font-size: 1.5rem;">Application Received!</h3>
+          <p style="font-size: 0.875rem; color: var(--color-brand-muted); margin: 0.75rem 0 1.5rem 0;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+          </p>
+          <button id="closeVolunteerSuccess" class="btn-sexy-green" style="width: 100%;">Close & Return</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

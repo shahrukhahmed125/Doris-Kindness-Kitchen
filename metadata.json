@@ -1,0 +1,6 @@
+{
+  "name": "Doris Kindness Kitchen CIC",
+  "description": "Feeding Hope, Sharing Love and Changing Lives. UK community interest company providing nutritious meals, food parcels, and compassionate support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
