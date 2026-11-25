@@ -98,7 +98,7 @@ export default function ArticleModal({ article, onClose, onOpenDonate }: Article
                 Help Us Take Kindness Further.
               </h4>
               <p className="text-xs text-[#FFF8ED]/80 mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Your donation helps us serve more hot meals and reach more people in need.
               </p>
             </div>
             <button

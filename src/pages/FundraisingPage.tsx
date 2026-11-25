@@ -56,7 +56,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             Taking Hope Beyond Our Kitchen.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Partner with us to support free meals, food parcels and essential care for people experiencing hunger and hardship in our community.
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             Help Us Take Kindness Further.
           </h2>
           <p className="text-sm text-[#596157] font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We welcome partnerships with local businesses, charities, community organisations and corporate sponsors who share our mission.
           </p>
         </div>
 
@@ -84,20 +84,20 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Outreach Sponsor</h3>
               <div className="text-3xl font-heading font-extrabold text-[#176B45]">£500 / month</div>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                A monthly sponsorship helps us cover ingredients, supplies and outreach essentials for our direct street meal service.
               </p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Lorem ipsum dolor sit amet</span>
+                  <span>Brand recognition across our outreach</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Consectetur adipiscing elit</span>
+                  <span>Impact report on meals and parcels delivered</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Sed do eiusmod tempor incididunt</span>
+                  <span>Invitation to community outreach events</span>
                 </li>
               </ul>
             </div>
@@ -123,20 +123,20 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Street Outreach Pillar</h3>
               <div className="text-3xl font-heading font-extrabold text-[#B8852C]">£1,500 / month</div>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                Our most needed tier — fully funds ingredients for a weekly round of hot meals served directly to people in need.
               </p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#B8852C]" />
-                  <span>Lorem ipsum dolor sit amet</span>
+                  <span>Named sponsorship of Saturday outreach</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#B8852C]" />
-                  <span>Consectetur adipiscing elit</span>
+                  <span>Quarterly site visits for your team</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#B8852C]" />
-                  <span>Sed do eiusmod tempor incididunt</span>
+                  <span>Employee volunteering day opportunities</span>
                 </li>
               </ul>
             </div>
@@ -158,20 +158,20 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               <h3 className="font-heading font-bold text-2xl text-[#104C31]">Custom Outreach Sponsor</h3>
               <div className="text-3xl font-heading font-extrabold text-[#176B45]">Flexible Sponsorship</div>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+                Tailored partnerships for foundations, charities and organisations — from food donations to long-term programme support.
               </p>
               <ul className="space-y-2 text-xs text-[#242923] pt-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Lorem ipsum dolor sit amet</span>
+                  <span>Bespoke partnership agreements</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Consectetur adipiscing elit</span>
+                  <span>Surplus food and supply donations welcome</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#176B45]" />
-                  <span>Sed do eiusmod tempor incididunt</span>
+                  <span>Joint community outreach initiatives</span>
                 </li>
               </ul>
             </div>
@@ -198,7 +198,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               Every Meal Makes a Difference.
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              There are many ways to get involved and help us reduce hunger in our community — here are just a few ideas.
             </p>
           </div>
 
@@ -206,22 +206,22 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Gift className="w-8 h-8 text-[#D9A441]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Street Meal Drives</h4>
-              <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet consectetur adipiscing elit integer nec odio.</p>
+              <p className="text-xs text-[#596157]">Organise a community collection of food, funds or supplies for our outreach.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Trophy className="w-8 h-8 text-[#176B45]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Sponsored Walks</h4>
-              <p className="text-xs text-[#596157]">Sed cursus ante dapibus diam sed nisi nulla quis sem at nibh elementum.</p>
+              <p className="text-xs text-[#596157]">Raise money by walking for a cause close to your heart.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <HandCoins className="w-8 h-8 text-[#D9A441]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Workplace Giving</h4>
-              <p className="text-xs text-[#596157]">Duis sagittis ipsum praesent mauris fusce nec tellus sed augue semper.</p>
+              <p className="text-xs text-[#596157]">Encourage your employer to support our outreach programmes.</p>
             </div>
             <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/30 shadow-sm hover:shadow-lg transition-all space-y-2 transform hover:-translate-y-1">
               <Building2 className="w-8 h-8 text-[#176B45]" />
               <h4 className="font-heading font-bold text-base text-[#104C31]">Community Events</h4>
-              <p className="text-xs text-[#596157]">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</p>
+              <p className="text-xs text-[#596157]">Host a bake sale, quiz night or fundraiser with friends and neighbours.</p>
             </div>
           </div>
         </div>
@@ -238,7 +238,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               Let's Make a Difference Together.
             </h2>
             <p className="text-xs text-[#596157]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+              Tell us about your organisation and how you'd like to support our outreach work.
             </p>
           </div>
 
@@ -299,7 +299,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
                 <label className="block text-xs font-medium text-[#596157] mb-1">Additional Details</label>
                 <textarea
                   rows={3}
-                  placeholder="Lorem ipsum dolor sit amet..."
+                  placeholder="Tell us about your partnership ideas..."
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   className="w-full px-3.5 py-2.5 bg-white border border-[#D9A441]/40 rounded-xl text-xs focus:outline-none focus:border-[#176B45]"
@@ -319,7 +319,7 @@ export default function FundraisingPage({ onNavigate, onOpenDonate }: Fundraisin
               <CheckCircle2 className="w-10 h-10 text-[#176B45] mx-auto" />
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Enquiry Received!</h3>
               <p className="text-xs text-[#596157] max-w-md mx-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Thank you for your interest. A member of our team will be in touch to discuss how we can work together.
               </p>
               <button
                 onClick={() => setSubmitted(false)}

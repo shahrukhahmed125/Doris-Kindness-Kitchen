@@ -53,7 +53,7 @@ export default function NewsEventsPage({ onNavigate, onSelectArticle }: NewsEven
             Reaching People Where They Are.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Stay up to date with stories from our kitchen, our street outreach and upcoming community events.
           </p>
         </div>
       </section>

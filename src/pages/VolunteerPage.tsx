@@ -41,7 +41,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
             Take Kindness Into the Community.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Join our team of volunteers and help us serve free meals, food parcels and essential supplies to people facing hunger and hardship in our community.
           </p>
         </div>
       </section>
@@ -57,20 +57,20 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
               Take Kindness Into the Community.
             </h2>
             <p className="text-base text-[#242923]/90 leading-relaxed font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Volunteers are the heart of Doris Kindness Kitchen. From preparing and packing meals in our kitchen to serving food directly on the streets, every hour you give helps us reach more people with dignity and compassion.
             </p>
             <div className="space-y-2.5 pt-1 text-xs sm:text-sm text-[#596157]">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit integer nec odio.</span>
+                <span>Full training and support provided — no experience needed.</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                <span>Sed cursus ante dapibus diam sed nisi nulla quis sem at nibh elementum.</span>
+                <span>Flexible shifts to fit around your schedule.</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                <span>Duis sagittis ipsum praesent mauris fusce nec tellus sed augue semper porta.</span>
+                <span>Make a real difference to neighbours in need.</span>
               </div>
             </div>
 
@@ -108,7 +108,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
               Reaching People Where They Are.
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Choose from a range of roles across our kitchen, street outreach and community programmes — there is a place for everyone.
             </p>
           </div>
 
@@ -189,28 +189,28 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
               01
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Kindness in Action</h4>
-            <p className="text-xs text-[#596157]">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p className="text-xs text-[#596157]">Register your interest online.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#D9A441]/20 text-[#B8852C] font-extrabold flex items-center justify-center mx-auto text-sm">
               02
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Direct Food Outreach</h4>
-            <p className="text-xs text-[#596157]">Sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p className="text-xs text-[#596157]">Attend a friendly induction session.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#176B45]/15 text-[#176B45] font-extrabold flex items-center justify-center mx-auto text-sm">
               03
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Every Meal Counts</h4>
-            <p className="text-xs text-[#596157]">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <p className="text-xs text-[#596157]">Choose a role that suits you.</p>
           </div>
           <div className="p-6 bg-white rounded-2xl border border-[#D9A441]/35 shadow-sm space-y-2 hover:shadow-md transition-shadow">
             <span className="w-10 h-10 rounded-full bg-[#D9A441]/20 text-[#B8852C] font-extrabold flex items-center justify-center mx-auto text-sm">
               04
             </span>
             <h4 className="font-heading font-bold text-sm text-[#104C31]">Moments of Kindness</h4>
-            <p className="text-xs text-[#596157]">Excepteur sint occaecat cupidatat non proident sunt.</p>
+            <p className="text-xs text-[#596157]">Start making a difference.</p>
           </div>
         </div>
       </section>
@@ -223,7 +223,7 @@ export default function VolunteerPage({ onNavigate, onOpenVolunteer }: Volunteer
             Take Kindness Into the Community.
           </h2>
           <p className="text-sm text-[#FFF8ED]/80 font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Whether you can give an hour a week or a Saturday afternoon, your kindness helps us feed and support our community.
           </p>
           <div className="pt-2">
             <button

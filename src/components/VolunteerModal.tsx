@@ -71,7 +71,7 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Street 
             Volunteer Application
           </h3>
           <p className="text-xs text-[#FFF8ED]/80 mt-1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.
+            Join our team and help us serve meals, food parcels and essential supplies to people in need.
           </p>
         </div>
 
@@ -165,7 +165,7 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Street 
                 </label>
                 <textarea
                   rows={3}
-                  placeholder="Lorem ipsum dolor sit amet..."
+                  placeholder="Tell us about any relevant experience or availability..."
                   value={experience}
                   onChange={(e) => setExperience(e.target.value)}
                   className="w-full px-3 py-2 bg-white border border-[#D9A441]/40 rounded-xl text-xs font-medium focus:outline-none focus:border-[#176B45]"
@@ -174,7 +174,7 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Street 
 
               <div className="bg-[#FAF2E4] p-3 rounded-xl border border-[#D9A441]/30 text-[11px] text-[#596157]">
                 <strong className="text-[#176B45] block mb-0.5">Kindness in Action:</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+                No experience is necessary — full training and support is provided. Volunteering with us is a flexible, rewarding way to make a real difference.
               </div>
 
               <button
@@ -204,12 +204,12 @@ export default function VolunteerModal({ isOpen, onClose, defaultRole = 'Street 
                 Application Received!
               </h3>
               <p className="text-sm text-[#596157] font-body leading-relaxed max-w-sm mx-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Thank you for applying! Our team will review your application and be in touch about next steps and induction.
               </p>
               <div className="p-3.5 bg-white rounded-xl border border-[#D9A441]/30 text-xs text-left space-y-1">
                 <p><strong>Role:</strong> {role}</p>
                 <p><strong>Availability:</strong> {availability.join(', ') || 'Flexible'}</p>
-                <p><strong>Status:</strong> Lorem ipsum dolor sit amet</p>
+                <p><strong>Status:</strong> Awaiting review</p>
               </div>
               <button
                 onClick={handleReset}

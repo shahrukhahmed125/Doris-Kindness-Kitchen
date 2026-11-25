@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
             Privacy Policy & Data Protection
           </h1>
           <p className="text-xs sm:text-sm text-[#FFF8ED]/80 font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+            How Doris Kindness Kitchen CIC collects, uses and protects your personal information.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               </nav>
 
               <div className="pt-4 border-t border-gray-100 text-[11px] text-[#596157]">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Doris Kindness Kitchen CIC · Last updated November 2026</p>
               </div>
             </div>
           </div>
@@ -74,10 +74,10 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
                 1. Introduction & Mission
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Doris Kindness Kitchen CIC ("we", "us", "our") is a community interest company dedicated to supporting homeless people, vulnerable individuals and families experiencing food poverty and financial hardship. This privacy policy explains how we collect, use and protect personal information when you use our website, make a donation, volunteer or contact us.
               </p>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                We are committed to protecting your privacy and handling your data in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018. This policy applies to all personal data we process in connection with our outreach programmes and community services.
               </p>
             </div>
 
@@ -85,12 +85,12 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 2. Information Processing
               </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit:</p>
+              <p>We may collect the following types of information:</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
-                <li><strong>Lorem ipsum:</strong> Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</li>
-                <li><strong>Sed ut perspiciatis:</strong> Unde omnis iste natus error sit voluptatem accusantium.</li>
-                <li><strong>Nemo enim ipsam:</strong> Voluptatem quia voluptas sit aspernatur aut odit aut fugit.</li>
-                <li><strong>Ut enim ad minima:</strong> Veniam, quis nostrum exercitationem ullam corporis suscipit.</li>
+                <li><strong>Contact details:</strong> Your name, email address and phone number when you contact us or register to volunteer.</li>
+                <li><strong>Donation information:</strong> Donation amounts and preferences processed securely through our payment provider.</li>
+                <li><strong>Volunteer details:</strong> Availability, role preferences and relevant experience you choose to share.</li>
+                <li><strong>Enquiry content:</strong> The messages and notes you send us through our contact and sponsorship forms.</li>
               </ul>
             </div>
 
@@ -98,12 +98,12 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 3. Data Protection
               </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit:</p>
+              <p>We use the information we collect to:</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</li>
-                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+                <li>Respond to your enquiries and provide information about our services.</li>
+                <li>Process donations and send receipts or thank-you confirmations.</li>
+                <li>Coordinate volunteering roles, shifts and training sessions.</li>
+                <li>Send occasional updates about our outreach work, if you have opted in.</li>
               </ul>
             </div>
 
@@ -112,10 +112,10 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
                 4. Lawful Basis
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We process personal data on the following lawful bases under UK GDPR: your consent (for example, when you opt in to receive updates), performance of a contract or pre-contractual steps (such as responding to your enquiry), and our legitimate interests in operating our charitable and community outreach services.
               </p>
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                Where we process sensitive personal data — for example, information relating to health or circumstances shared during outreach — we do so only where necessary to deliver our services and always with appropriate safeguards.
               </p>
             </div>
 
@@ -124,7 +124,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
                 5. Digital Safeguards
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Our website uses essential cookies and similar technologies to operate correctly and remember your preferences. We do not use cookies to track you across other websites, and we do not sell your personal information to third parties. You can control cookies through your browser settings at any time.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
                 6. Storage & Security
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                We retain personal data only for as long as necessary for the purposes described in this policy, or as required by law. Donation records are kept for accounting and Gift Aid purposes. You may ask us to delete your data at any time, subject to legal obligations we must meet.
               </p>
             </div>
 
@@ -141,11 +141,12 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
               <h2 className="font-heading font-bold text-xl text-[#104C31]">
                 7. Your Rights
               </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit:</p>
+              <p>You have the following rights regarding your personal data:</p>
               <ul className="list-disc pl-5 space-y-1 text-[#596157]">
-                <li><strong>Lorem ipsum:</strong> Dolor sit amet, consectetur adipiscing elit.</li>
-                <li><strong>Consectetur:</strong> Adipiscing elit, sed do eiusmod tempor incididunt.</li>
-                <li><strong>Tempor:</strong> Incididunt ut labore et dolore magna aliqua.</li>
+                <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+                <li><strong>Correction:</strong> Ask us to correct inaccurate or incomplete information.</li>
+                <li><strong>Deletion:</strong> Request that we delete your personal data.</li>
+                <li><strong>Objection:</strong> Object to processing based on our legitimate interests.</li>
               </ul>
             </div>
 
@@ -154,7 +155,7 @@ export default function PrivacyPolicyPage({ onNavigate }: PrivacyPolicyPageProps
                 8. Contact Officer
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:
+                If you have any questions about this policy or wish to exercise your data protection rights, please contact our outreach office using the details below. We aim to respond to all privacy enquiries within 30 days.
               </p>
               <div className="bg-[#FAF2E4] p-4 rounded-xl border border-[#D9A441]/30 text-xs space-y-1">
                 <p><strong>Doris Kindness Kitchen CIC – Outreach Office</strong></p>

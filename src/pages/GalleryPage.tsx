@@ -49,7 +49,7 @@ export default function GalleryPage({ onNavigate, onSelectPhoto }: GalleryPagePr
             Moments of Kindness.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Browse photos from our kitchen, our street outreach and the moments of kindness that define our work.
           </p>
         </div>
       </section>

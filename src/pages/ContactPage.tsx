@@ -54,7 +54,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
             Let's Make a Difference Together.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Get in touch with our team about volunteering, donations, partnerships or accessing our support services. We would love to hear from you.
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                 Let's Make a Difference Together.
               </h2>
               <p className="text-xs sm:text-sm text-[#596157] mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+                Fill in the form below and our team will get back to you as soon as possible.
               </p>
             </div>
 
@@ -134,7 +134,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                   <textarea
                     rows={4}
                     required
-                    placeholder="Lorem ipsum dolor sit amet..."
+                    placeholder="Tell us how we can help..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     className="w-full px-3.5 py-2.5 bg-white border border-[#D9A441]/40 rounded-xl text-xs focus:outline-none focus:border-[#176B45]"
@@ -156,7 +156,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-[#104C31]">Message Sent!</h3>
                 <p className="text-sm text-[#596157] max-w-md mx-auto leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Thank you for reaching out. A member of our team will review your message and respond shortly.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -225,7 +225,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                 <span>Taking Hope Beyond Our Kitchen</span>
               </h4>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                Our street meal outreach runs every Saturday from 12:00 to 2:30 PM at Walthamstow High Street, and our kitchen headquarters is open for volunteers at 244 Billet Road, Walthamstow.
               </p>
             </div>
           </div>
@@ -268,7 +268,7 @@ export default function ContactPage({ onNavigate, onOpenDonate }: ContactPagePro
                 Doris Kindness Kitchen CIC
               </h4>
               <p className="text-xs text-[#596157] mt-1 font-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Free hot meals served every Saturday, 12:00–2:30 PM.
               </p>
               <div className="mt-3 pt-3 border-t border-gray-100 flex items-center justify-center gap-4 text-[11px] text-[#176B45] font-semibold">
                 <span>Direct Street Service</span>

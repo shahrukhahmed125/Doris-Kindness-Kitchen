@@ -41,7 +41,7 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
               Be Part of Something Good.
             </h3>
             <p className="text-sm text-[#FFF8ED]/80 mt-2 font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Subscribe to stay updated on our outreach work, events and stories of kindness from our community.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
               <div className="flex items-center gap-2 bg-[#104C31] text-[#E7C071] px-5 py-3.5 rounded-xl border border-[#D9A441]/50">
                 <CheckCircle2 className="w-5 h-5 text-[#D9A441] shrink-0" />
                 <span className="text-sm font-medium">
-                  Lorem ipsum dolor sit amet!
+                  Thank you! You're subscribed to our updates.
                 </span>
               </div>
             ) : (
@@ -87,14 +87,14 @@ export default function Footer({ onNavigate, onOpenDonate }: FooterProps) {
               />
             </div>
             <p className="text-sm text-[#FFF8ED]/80 leading-relaxed font-body pr-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+              Doris Kindness Kitchen CIC is a community interest company dedicated to supporting homeless people, vulnerable individuals and families experiencing food poverty and financial hardship through free meals, food parcels, essential supplies and community outreach.
             </p>
             <div className="p-3.5 rounded-xl bg-[#176B45]/60 border border-[#D9A441]/25">
               <p className="text-xs italic text-[#E7C071] font-medium">
                 “Feeding Hope, Sharing Love and Changing Lives.”
               </p>
               <p className="text-[11px] text-[#FFF8ED]/60 mt-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                A registered community interest company serving Walthamstow and beyond.
               </p>
             </div>
             <div>

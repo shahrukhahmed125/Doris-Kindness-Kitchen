@@ -50,7 +50,7 @@ export default function ProjectsPage({ onNavigate, onOpenDonate }: ProjectsPageP
             Reaching People Where They Are.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Discover the outreach programmes through which we serve free meals, food parcels and essential supplies to people experiencing homelessness and food poverty.
           </p>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function ProjectsPage({ onNavigate, onOpenDonate }: ProjectsPageP
             Help Us Take Kindness Further.
           </h2>
           <p className="text-base text-[#FFF8ED]/85 max-w-xl mx-auto font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Whether you are a local business, charity, community organisation or individual, we would love to hear from you about supporting our outreach projects.
           </p>
           <div className="pt-2">
             <button

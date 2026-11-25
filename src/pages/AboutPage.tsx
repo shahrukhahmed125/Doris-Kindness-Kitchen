@@ -48,7 +48,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             More Than a Meal. A Message of Hope.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We are a community interest company on a mission to ensure that vulnerable people feel valued, supported and cared for — regardless of their circumstances.
           </p>
         </div>
       </section>
@@ -64,13 +64,13 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               Taking Hope Beyond Our Kitchen.
             </h2>
             <p className="text-base text-[#242923]/90 leading-relaxed font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Doris Kindness Kitchen CIC was founded on a simple belief: that everyone deserves a hot meal, essential supplies and the dignity that comes with being treated as a human being. We support homeless people, vulnerable individuals and families experiencing food poverty and financial hardship.
             </p>
             <p className="text-sm text-[#596157] leading-relaxed font-body">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our services include free nutritious meals, food parcels, essential supplies and community outreach programmes. We work with volunteers, local businesses, charities and community organisations to reduce hunger, promote dignity and improve wellbeing.
             </p>
             <p className="text-sm text-[#596157] leading-relaxed font-body">
-              Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+              Our target audience includes rough sleepers, low-income families, vulnerable adults and elderly people experiencing food insecurity. We also welcome donors, corporate sponsors, local authorities and community organisations who want to support our work.
             </p>
 
             <div className="pt-2 flex items-center gap-4">
@@ -102,7 +102,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
                   Reaching People Where They Are
                 </p>
                 <p className="text-xs text-white/80">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Direct street meal outreach, every Saturday
                 </p>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
               Reaching People Where They Are
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our programmes take food, warmth and support directly to people who need it most — right where they live and gather.
             </p>
           </div>
 
@@ -170,7 +170,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Direct Kindness</h3>
             <p className="text-sm text-[#596157] leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We take kindness directly to the streets, serving hot meals and essential supplies to people experiencing homelessness and food poverty.
             </p>
           </div>
 
@@ -180,7 +180,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Dignity First</h3>
             <p className="text-sm text-[#596157] leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Every person we meet is treated with respect and compassion. Our support is never a handout — it is a hand up.
             </p>
           </div>
 
@@ -190,7 +190,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             </div>
             <h3 className="font-heading font-bold text-xl text-[#104C31]">Community Solidarity</h3>
             <p className="text-sm text-[#596157] leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We partner with volunteers, local businesses, charities and community organisations to reduce hunger and strengthen our neighbourhood.
             </p>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function AboutPage({ onNavigate, onOpenDonate, onOpenVolunteer }:
             Help Us Take Kindness Further.
           </h2>
           <p className="text-base text-[#FFF8ED]/85 max-w-2xl mx-auto font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Your donation or time can help us serve more nutritious meals, reach more people and bring warmth to our community. Every contribution makes a difference.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
             <button

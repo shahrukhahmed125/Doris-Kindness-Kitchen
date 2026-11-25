@@ -21,27 +21,27 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
     {
       amount: 10,
       title: 'Direct Outreach Supporter',
-      impact: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      details: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+      impact: 'Helps prepare ingredients for our weekly street meals.',
+      details: 'Your gift contributes to buying fresh, nutritious ingredients used to cook the meals served every Saturday at Walthamstow High Street.',
     },
     {
       amount: 25,
       title: 'Street Meal Champion',
-      impact: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.',
-      details: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
+      impact: 'Can provide a hot meal and essential supplies for someone in need.',
+      details: '£25 helps cover the cost of a nutritious meal, packaging and essential items distributed with dignity during our direct outreach.',
       featured: true,
     },
     {
       amount: 50,
       title: 'Community Outreach Pillar',
-      impact: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.',
-      details: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      impact: 'Funds food parcels and essential care for vulnerable families.',
+      details: 'Your donation supports our food parcel programme, warm clothing and hygiene supplies for people experiencing hardship.',
     },
     {
       amount: 100,
       title: 'Outreach Kitchen Benefactor',
-      impact: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.',
-      details: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.',
+      impact: 'Sponsors a full outreach session for dozens of neighbours.',
+      details: 'A £100 gift helps cover ingredients, transport and supplies for an entire Saturday street meal outreach round.',
     },
   ];
 
@@ -70,7 +70,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
             Help Us Take Kindness Further.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Your generosity helps us prepare more nutritious meals, pack more food parcels and reach more people facing hunger and hardship in our community.
           </p>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
             Help Us Take Kindness Further.
           </h2>
           <p className="text-sm text-[#596157] font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Every pound goes towards feeding people in need — from ingredients and supplies to transport and outreach essentials.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
             Taking Hope Beyond Our Kitchen
           </h3>
           <p className="text-xs text-[#596157] font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            Prefer to give a different amount? You can donate any sum that suits you — every contribution, large or small, makes a real difference.
           </p>
           <button
             onClick={() => onOpenDonate()}
@@ -174,7 +174,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Direct Outreach Support</h3>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                Funds and supplies power our Saturday street meal outreach at Walthamstow High Street, where volunteers serve hot meals directly to people in need.
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Nutritious Food Supplies</h3>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                Donations of ingredients, tinned goods and dry foods help us prepare balanced meals and pack food parcels for vulnerable families.
               </p>
             </div>
 
@@ -194,7 +194,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               </div>
               <h3 className="font-heading font-bold text-xl text-[#104C31]">Outreach Meal Support</h3>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+                Support our wider fundraising efforts to expand kitchen capacity, reach more communities and provide essential care alongside meals.
               </p>
               <button
                 onClick={() => onNavigate('fundraising')}
@@ -224,7 +224,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               Taking Hope Beyond Our Kitchen
             </h4>
             <p className="leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Doris Kindness Kitchen CIC supports homeless people, vulnerable individuals and families experiencing food poverty through free nutritious meals, food parcels, essential supplies and community outreach programmes.
             </p>
           </div>
           <div className="pb-4 border-b border-gray-100">
@@ -232,7 +232,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               Every Meal Makes a Difference
             </h4>
             <p className="leading-relaxed">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our mission is to ensure that vulnerable people feel valued, supported and cared for, regardless of their circumstances — reducing hunger, promoting dignity and improving wellbeing.
             </p>
           </div>
           <div>
@@ -240,7 +240,7 @@ export default function DonatePage({ onNavigate, onOpenDonate }: DonatePageProps
               Moments of Kindness
             </h4>
             <p className="leading-relaxed">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Every donation helps us feed more neighbours. Your support funds ingredients, supplies, transport and outreach essentials — all used to bring warmth and hope to our community.
             </p>
           </div>
         </div>

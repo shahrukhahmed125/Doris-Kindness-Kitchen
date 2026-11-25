@@ -51,7 +51,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
             Kindness in Action.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Free meals, food parcels, essential supplies and community outreach — our services are designed to reduce hunger, promote dignity and improve wellbeing for people in need.
           </p>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
               Reaching People Where They Are
             </h2>
             <p className="text-sm text-[#596157] font-body max-w-xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Discover how each of our programmes reaches people in need — from Saturday street meals to warmth and essential care support.
             </p>
           </div>
 
@@ -203,7 +203,7 @@ export default function ServicesPage({ onNavigate, onOpenDonate }: ServicesPageP
             Let's Make a Difference Together.
           </h2>
           <p className="text-sm text-[#FFF8ED]/85 font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Whether you need support or want to help, we would love to hear from you. Our team is here to answer questions and connect you with the right service.
           </p>
           <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
             <button

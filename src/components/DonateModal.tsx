@@ -161,7 +161,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                   Direct Food Outreach Impact:
                 </strong>
                 <p className="leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  Every donation helps us prepare more nutritious meals, pack food parcels and reach more people facing hunger and hardship in our community.
                 </p>
               </div>
 
@@ -175,7 +175,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                   className="mt-1 h-4 w-4 rounded text-[#176B45] focus:ring-[#176B45] border-gray-300 cursor-pointer"
                 />
                 <label htmlFor="giftaid" className="text-xs leading-relaxed text-[#242923] cursor-pointer">
-                  <strong className="text-[#176B45]">Gift Aid Declaration:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                  <strong className="text-[#176B45]">Gift Aid Declaration:</strong> I am a UK taxpayer and confirm that I want Doris Kindness Kitchen CIC to claim Gift Aid on my donation.
                 </label>
               </div>
 
@@ -315,7 +315,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
 
               <div className="flex items-center justify-center gap-2 text-[11px] text-[#596157]">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#176B45]" />
-                <span>Lorem ipsum dolor sit amet · Consectetur adipiscing elit</span>
+                <span>Secure payment · Registered Community Interest Company</span>
               </div>
             </form>
           ) : (
@@ -333,7 +333,7 @@ export default function DonateModal({ isOpen, onClose, initialAmount = 25 }: Don
                   Thank You, {donorName || 'Kind Supporter'}!
                 </h3>
                 <p className="text-sm text-[#596157] mt-1 font-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Your generosity helps us serve more hot meals and reach more people in need. A confirmation receipt has been sent to your email.
                 </p>
               </div>
 

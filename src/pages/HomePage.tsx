@@ -92,7 +92,7 @@ export default function HomePage({
               </h1>
 
               <p className="text-base sm:text-lg md:text-xl text-[#FFF8ED]/90 max-w-2xl leading-relaxed font-body font-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                Doris Kindness Kitchen CIC is a community interest company dedicated to supporting homeless people, vulnerable individuals and families experiencing food poverty and financial hardship. We serve free, nutritious meals and essential supplies with dignity and compassion.
               </p>
 
               {/* Action Buttons */}
@@ -118,15 +118,15 @@ export default function HomePage({
               <div className="pt-4 flex flex-wrap items-center gap-6 text-xs text-[#FFF8ED]/85 font-medium">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  Lorem ipsum dolor sit amet
+                  Free Hot Meals Every Saturday
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  Consectetur adipiscing elit
+                  Registered Community Interest Company
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  Sed do eiusmod tempor
+                  Serving Walthamstow Since Launch
                 </span>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function HomePage({
                     <div className="bg-gradient-to-r from-[#D9A441] to-[#E7C071] h-full w-[82%] rounded-full shadow" />
                   </div>
                   <p className="text-xs text-[#596157] leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Our volunteers serve fresh, hot meals every Saturday at Walthamstow High Street — every donation helps us feed more neighbours in need.
                   </p>
                 </div>
 
@@ -229,11 +229,11 @@ export default function HomePage({
               </div>
 
               <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Doris Kindness Kitchen CIC exists to ensure that vulnerable people feel valued, supported and cared for, regardless of their circumstances. We work alongside homeless individuals, rough sleepers, low-income families and elderly people experiencing food insecurity — reducing hunger, promoting dignity and improving wellbeing in our community.
               </p>
 
               <p className="text-sm sm:text-base text-[#596157] leading-relaxed font-body">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                We aim to provide free nutritious meals, food parcels, essential supplies and community outreach programmes, working hand in hand with volunteers, local businesses, charities and community organisations. Our mission: to feed hope, share love and change lives.
               </p>
 
               {/* Key Pillars */}
@@ -243,7 +243,7 @@ export default function HomePage({
                     01
                   </div>
                   <h4 className="font-heading font-bold text-sm text-[#104C31]">Direct Street Outreach</h4>
-                  <p className="text-xs text-[#596157] mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="text-xs text-[#596157] mt-1">Hot meals served weekly at Walthamstow High Street.</p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-[#D9A441]/30 shadow-sm hover:shadow-md transition-shadow">
@@ -251,7 +251,7 @@ export default function HomePage({
                     02
                   </div>
                   <h4 className="font-heading font-bold text-sm text-[#104C31]">Dignity & Compassion</h4>
-                  <p className="text-xs text-[#596157] mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="text-xs text-[#596157] mt-1">Every person treated with respect, never a handout.</p>
                 </div>
               </div>
 
@@ -290,7 +290,7 @@ export default function HomePage({
               Taking Hope Beyond Our Kitchen.
             </h2>
             <p className="text-sm sm:text-base text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              From free hot meals and food parcels to warmth and essential care, our programmes reach people facing hunger and hardship across Walthamstow and beyond.
             </p>
           </div>
 
@@ -371,7 +371,7 @@ export default function HomePage({
               Taking Hope Beyond Our Kitchen.
             </h2>
             <p className="text-sm sm:text-base text-[#FFF8ED]/85 font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our mission is to ensure that vulnerable people feel valued, supported and cared for, regardless of their circumstances — working with volunteers, local businesses and community organisations to reduce hunger and promote dignity.
             </p>
           </div>
 
@@ -389,18 +389,18 @@ export default function HomePage({
                   Our Mission
                 </h3>
                 <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  Our mission is to ensure that vulnerable people feel valued, supported and cared for, regardless of their circumstances. We exist to reduce hunger, promote dignity and improve the wellbeing of people in need through free meals, food parcels, essential supplies and community outreach.
                 </p>
               </div>
 
               <div className="pt-6 border-t border-white/10 mt-6 text-xs text-[#FFF8ED]/80 space-y-2">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <span>Free nutritious meals for people in need</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Sed do eiusmod tempor incididunt ut labore et dolore</span>
+                  <span>Food parcels, warmth and essential care</span>
                 </div>
               </div>
             </div>
@@ -418,18 +418,18 @@ export default function HomePage({
                   Our Vision
                 </h3>
                 <p className="text-base sm:text-lg text-[#FFF8ED]/95 leading-relaxed font-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  A future where no one in our community has to go hungry. We envision a borough where vulnerable people are valued, supported and cared for — where charities, businesses and volunteers work together to end food poverty.
                 </p>
               </div>
 
               <div className="pt-6 border-t border-white/10 mt-6 text-xs text-[#FFF8ED]/80 space-y-2">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                  <span>A community where no one goes hungry</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                  <span>Sed do eiusmod tempor incididunt ut labore et dolore</span>
+                  <span>Partnerships with charities and local organisations</span>
                 </div>
               </div>
             </div>
@@ -460,7 +460,7 @@ export default function HomePage({
               Every Meal Makes a Difference.
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Through donations and volunteering, our community has delivered thousands of meals and vital supplies to people facing hunger and hardship.
             </p>
           </div>
 
@@ -515,7 +515,7 @@ export default function HomePage({
                 Reaching People Where They Are.
               </h2>
               <p className="text-sm sm:text-base text-[#596157] font-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Our street outreach, kitchen programme and essential care initiatives work together to reduce hunger and bring dignity to every person we serve.
               </p>
             </div>
             <button
@@ -619,7 +619,7 @@ export default function HomePage({
               Help Us Take Kindness Further.
             </h2>
             <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl mx-auto font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Every donation helps us prepare more nutritious meals, pack more food parcels and reach more people facing hunger and hardship in our community.
             </p>
           </div>
 
@@ -643,7 +643,7 @@ export default function HomePage({
             </div>
 
             <div className="text-xs text-[#E7C071] font-semibold bg-[#104C31]/60 py-2.5 px-4 rounded-xl border border-[#D9A441]/30">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+              £25 can provide a hot, nutritious meal and essential supplies for someone in need.
             </div>
 
             <button
@@ -658,15 +658,15 @@ export default function HomePage({
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-[#FFF8ED]/80 font-medium">
             <span className="flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-[#D9A441]" />
-              Lorem ipsum dolor sit amet
+              Registered Community Interest Company
             </span>
             <span className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-              Consectetur adipiscing elit
+              100% of donations fund our outreach work
             </span>
             <span className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-              Sed do eiusmod tempor
+              Secure online giving
             </span>
           </div>
         </div>
@@ -710,21 +710,21 @@ export default function HomePage({
               </div>
 
               <p className="text-base sm:text-lg text-[#242923]/90 leading-relaxed font-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                Our volunteers are the heart of Doris Kindness Kitchen. Whether you help prepare meals in our kitchen, serve food on the streets or support our community outreach, your time makes a real difference to people facing hunger and hardship.
               </p>
 
               <div className="space-y-2.5 pt-1 text-sm text-[#596157]">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                  <span><strong>Lorem ipsum dolor:</strong> Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</span>
+                  <span><strong>Meal Preparation:</strong> Cook, portion and pack nutritious meals at our Walthamstow kitchen.</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                  <span><strong>Sed do eiusmod:</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
+                  <span><strong>Street Service:</strong> Serve hot meals and essential supplies with warmth and dignity.</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#176B45] shrink-0 mt-0.5" />
-                  <span><strong>Ut enim ad minim:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse.</span>
+                  <span><strong>Community Outreach:</strong> Distribute food parcels and connect people with local support.</span>
                 </div>
               </div>
 
@@ -762,7 +762,7 @@ export default function HomePage({
               Moments of Kindness.
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Hear from the people and volunteers whose lives have been touched by our outreach work.
             </p>
           </div>
         </div>
@@ -805,7 +805,7 @@ export default function HomePage({
               Frequently Asked Questions
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Everything you need to know about our outreach, volunteering and how to support Doris Kindness Kitchen.
             </p>
           </div>
 
@@ -869,7 +869,7 @@ export default function HomePage({
                 Stories of Kindness, Community and Hope.
               </h2>
               <p className="text-sm sm:text-base text-[#596157] font-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Updates from our kitchen, our street outreach and the community we serve — stories of kindness, resilience and hope.
               </p>
             </div>
             <button

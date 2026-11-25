@@ -33,7 +33,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
             Taking Hope Beyond Our Kitchen.
           </h1>
           <p className="text-base sm:text-lg text-[#FFF8ED]/90 max-w-2xl font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Feeding hope, sharing love and changing lives — our guiding principles for supporting people facing hunger and hardship.
           </p>
         </div>
       </section>
@@ -54,21 +54,21 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
                 Our Mission
               </h2>
               <p className="text-lg sm:text-xl text-[#FFF8ED] leading-relaxed font-body font-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Our mission is to ensure that vulnerable people feel valued, supported and cared for, regardless of their circumstances.
               </p>
               <p className="text-sm text-[#FFF8ED]/85 leading-relaxed font-body">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                We support homeless people, vulnerable individuals and families experiencing food poverty and financial hardship by providing free nutritious meals, food parcels, essential supplies and community outreach programmes.
               </p>
             </div>
 
             <div className="pt-6 border-t border-white/20 mt-8 space-y-2 text-xs text-[#FFF8ED]/85">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <span>Free nutritious meals for people in need</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#D9A441]" />
-                <span>Sed do eiusmod tempor incididunt ut labore et dolore</span>
+                <span>Food parcels, warmth and essential care</span>
               </div>
             </div>
           </div>
@@ -86,21 +86,21 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
                 Our Vision
               </h2>
               <p className="text-lg sm:text-xl text-[#104C31] leading-relaxed font-body font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A future where no one in our community has to go hungry — where every vulnerable person feels valued, supported and cared for.
               </p>
               <p className="text-sm text-[#596157] leading-relaxed font-body">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                We aim to work with volunteers, local businesses, charities and community organisations to reduce hunger, promote dignity and improve the wellbeing of people in need across the borough.
               </p>
             </div>
 
             <div className="pt-6 border-t border-gray-100 mt-8 space-y-2 text-xs text-[#596157]">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45]" />
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <span>A community where no one goes hungry</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#176B45]" />
-                <span>Sed do eiusmod tempor incididunt ut labore et dolore</span>
+                <span>Partnerships with charities and local organisations</span>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
               Reaching People Where They Are
             </h2>
             <p className="text-sm text-[#596157] font-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our strategic priorities for expanding support to people experiencing hunger and hardship.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">01</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Direct Street Serving</h3>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+                Every Saturday, volunteers serve hot meals and essential supplies at Walthamstow High Street, reaching rough sleepers and vulnerable residents directly.
               </p>
             </div>
 
@@ -135,7 +135,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
               <span className="text-2xl font-heading font-extrabold text-[#D9A441]">02</span>
               <h3 className="font-heading font-bold text-base text-[#104C31]">Community Connection</h3>
               <p className="text-xs text-[#596157] leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+                We build lasting relationships through food parcels, warmth and essential care, connecting people with local support services and each other.
               </p>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function MissionVisionPage({ onNavigate, onOpenDonate }: MissionV
             Help Us Take Kindness Further.
           </h2>
           <p className="text-base text-[#FFF8ED]/90 max-w-xl mx-auto font-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Your support — through donations, volunteering or partnerships — helps us feed more people and bring hope to our community.
           </p>
           <div className="pt-2">
             <button
